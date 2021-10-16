@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace PIM_4_Desktop
 {
-    public partial class Form14 : Form
+    public partial class Form16 : Form
     {
-        public Form14()
+        public Form16()
         {
             InitializeComponent();
-        }
-
-        private void tabPage2_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

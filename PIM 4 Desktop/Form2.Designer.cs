@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.botaoPers7 = new PIM_4_Desktop.Controles_Personalizados.botaoPers();
@@ -40,12 +41,12 @@
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.botaoPers5 = new PIM_4_Desktop.Controles_Personalizados.botaoPers();
             this.botaoPers6 = new PIM_4_Desktop.Controles_Personalizados.botaoPers();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel4.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -64,12 +65,25 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(1326, 117);
             this.tableLayoutPanel1.TabIndex = 14;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox1.Image = global::PIM_4_Desktop.Properties.Resources.Tentativa_Logo;
+            this.pictureBox1.Location = new System.Drawing.Point(445, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(436, 111);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
+            // 
             // label3
             // 
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(577, 180);
+            this.label3.Location = new System.Drawing.Point(577, 172);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(194, 29);
             this.label3.TabIndex = 17;
@@ -88,9 +102,9 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 19.60784F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 0.6033183F));
             this.tableLayoutPanel2.Controls.Add(this.botaoPers7, 1, 2);
-            this.tableLayoutPanel2.Controls.Add(this.botaoPers4, 3, 0);
             this.tableLayoutPanel2.Controls.Add(this.botaoPers3, 1, 0);
             this.tableLayoutPanel2.Controls.Add(this.botaoPers2, 3, 2);
+            this.tableLayoutPanel2.Controls.Add(this.botaoPers4, 3, 0);
             this.tableLayoutPanel2.Location = new System.Drawing.Point(12, 249);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 3;
@@ -284,24 +298,23 @@
             this.botaoPers6.TextColor = System.Drawing.Color.White;
             this.botaoPers6.UseVisualStyleBackColor = false;
             // 
-            // pictureBox1
+            // label5
             // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.Image = global::PIM_4_Desktop.Properties.Resources.Tentativa_Logo;
-            this.pictureBox1.Location = new System.Drawing.Point(445, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(436, 111);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
+            this.label5.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(523, 203);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(299, 18);
+            this.label5.TabIndex = 81;
+            this.label5.Text = "Escolha uma opção abaxo para cadastrar";
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1350, 729);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.tableLayoutPanel3);
             this.Controls.Add(this.tableLayoutPanel4);
             this.Controls.Add(this.tableLayoutPanel2);
@@ -310,10 +323,10 @@
             this.Name = "Form2";
             this.Text = "AluCar Locadora de Veículos";
             this.tableLayoutPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel4.ResumeLayout(false);
             this.tableLayoutPanel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -334,5 +347,6 @@
         private Controles_Personalizados.botaoPers botaoPers5;
         private Controles_Personalizados.botaoPers botaoPers6;
         private Controles_Personalizados.botaoPers botaoPers7;
+        private System.Windows.Forms.Label label5;
     }
 }

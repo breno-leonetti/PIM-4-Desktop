@@ -30,18 +30,23 @@
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.label3 = new System.Windows.Forms.Label();
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.botaoPers3 = new PIM_4_Desktop.Controles_Personalizados.botaoPers();
-            this.caixaTexPer6 = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
-            this.label1 = new System.Windows.Forms.Label();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.botaoPers1 = new PIM_4_Desktop.Controles_Personalizados.botaoPers();
+            this.label1 = new System.Windows.Forms.Label();
+            this.caixaTexPer6 = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.label9 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
+            this.btnVoltar = new PIM_4_Desktop.Controles_Personalizados.botaoPers();
             this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
+            this.label7 = new System.Windows.Forms.Label();
+            this.caixaTexPer7 = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
+            this.label6 = new System.Windows.Forms.Label();
+            this.caixaTexPer4 = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
             this.comboBoxPers2 = new PIM_4_Desktop.Controles_Personalizados.ComboBoxPers();
             this.label14 = new System.Windows.Forms.Label();
             this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
@@ -58,25 +63,24 @@
             this.caixaTexPer3 = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
             this.caixaTexPer5 = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
             this.label5 = new System.Windows.Forms.Label();
-            this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
-            this.btnVoltar = new PIM_4_Desktop.Controles_Personalizados.botaoPers();
-            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.botaoPers2 = new PIM_4_Desktop.Controles_Personalizados.botaoPers();
-            this.caixaTexPer4 = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
-            this.label6 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            this.tabPage2.SuspendLayout();
-            this.tableLayoutPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.tableLayoutPanel2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            this.tabPage2.SuspendLayout();
+            this.tableLayoutPanel4.SuspendLayout();
             this.tableLayoutPanel6.SuspendLayout();
             this.tableLayoutPanel5.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
-            this.tableLayoutPanel4.SuspendLayout();
-            this.tableLayoutPanel2.SuspendLayout();
+            this.tableLayoutPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -104,62 +108,6 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Buscar e Excluir";
             // 
-            // tabPage2
-            // 
-            this.tabPage2.BackColor = System.Drawing.SystemColors.Control;
-            this.tabPage2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.tabPage2.Controls.Add(this.tableLayoutPanel4);
-            this.tabPage2.Controls.Add(this.tableLayoutPanel6);
-            this.tabPage2.Controls.Add(this.tableLayoutPanel5);
-            this.tabPage2.Controls.Add(this.tableLayoutPanel3);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1318, 523);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Alterar/Editar";
-            // 
-            // label3
-            // 
-            this.label3.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(379, 136);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(609, 29);
-            this.label3.TabIndex = 72;
-            this.label3.Text = "Busca, Alteração e Exclusão de Cadastro de Veículo";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // tableLayoutPanel1
-            // 
-            this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.tableLayoutPanel1.ColumnCount = 3;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel1.Controls.Add(this.pictureBox1, 1, 0);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(12, 12);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 1;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1326, 117);
-            this.tableLayoutPanel1.TabIndex = 71;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.Image = global::PIM_4_Desktop.Properties.Resources.Tentativa_Logo;
-            this.pictureBox1.Location = new System.Drawing.Point(445, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(436, 111);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
-            // 
             // dataGridView1
             // 
             this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -170,6 +118,22 @@
             this.dataGridView1.Size = new System.Drawing.Size(833, 485);
             this.dataGridView1.TabIndex = 0;
             // 
+            // tableLayoutPanel2
+            // 
+            this.tableLayoutPanel2.ColumnCount = 3;
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2.199661F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 97.80034F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 178F));
+            this.tableLayoutPanel2.Controls.Add(this.groupBox1, 1, 0);
+            this.tableLayoutPanel2.Controls.Add(this.groupBox2, 1, 1);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(6, 6);
+            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
+            this.tableLayoutPanel2.RowCount = 2;
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(612, 497);
+            this.tableLayoutPanel2.TabIndex = 3;
+            // 
             // groupBox1
             // 
             this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -178,25 +142,10 @@
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(12, 3);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(420, 222);
+            this.groupBox1.Size = new System.Drawing.Size(418, 222);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Buscar";
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox2.Controls.Add(this.botaoPers1);
-            this.groupBox2.Controls.Add(this.label1);
-            this.groupBox2.Controls.Add(this.caixaTexPer6);
-            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(12, 272);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(420, 222);
-            this.groupBox2.TabIndex = 2;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Exlcuir/Deletar";
             // 
             // botaoPers3
             // 
@@ -213,11 +162,59 @@
             this.botaoPers3.ForeColor = System.Drawing.Color.White;
             this.botaoPers3.Location = new System.Drawing.Point(25, 90);
             this.botaoPers3.Name = "botaoPers3";
-            this.botaoPers3.Size = new System.Drawing.Size(369, 40);
+            this.botaoPers3.Size = new System.Drawing.Size(367, 40);
             this.botaoPers3.TabIndex = 21;
             this.botaoPers3.Text = "EXIBIR LISTA";
             this.botaoPers3.TextColor = System.Drawing.Color.White;
             this.botaoPers3.UseVisualStyleBackColor = false;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox2.Controls.Add(this.botaoPers1);
+            this.groupBox2.Controls.Add(this.label1);
+            this.groupBox2.Controls.Add(this.caixaTexPer6);
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Location = new System.Drawing.Point(12, 272);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(418, 222);
+            this.groupBox2.TabIndex = 2;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Exlcuir/Deletar";
+            // 
+            // botaoPers1
+            // 
+            this.botaoPers1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.botaoPers1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.botaoPers1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.botaoPers1.BorderColor = System.Drawing.Color.PeachPuff;
+            this.botaoPers1.BorderRadius = 5;
+            this.botaoPers1.BorderSize = 0;
+            this.botaoPers1.FlatAppearance.BorderSize = 0;
+            this.botaoPers1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.botaoPers1.Font = new System.Drawing.Font("Arial Black", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.botaoPers1.ForeColor = System.Drawing.Color.White;
+            this.botaoPers1.Location = new System.Drawing.Point(25, 151);
+            this.botaoPers1.Name = "botaoPers1";
+            this.botaoPers1.Size = new System.Drawing.Size(367, 40);
+            this.botaoPers1.TabIndex = 22;
+            this.botaoPers1.Text = "EXCLUIR";
+            this.botaoPers1.TextColor = System.Drawing.Color.White;
+            this.botaoPers1.UseVisualStyleBackColor = false;
+            // 
+            // label1
+            // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(31, 46);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(231, 24);
+            this.label1.TabIndex = 37;
+            this.label1.Text = "ID do Veículo p/ Excluir:";
             // 
             // caixaTexPer6
             // 
@@ -238,43 +235,77 @@
             this.caixaTexPer6.PasswordChar = false;
             this.caixaTexPer6.PlaceholderColor = System.Drawing.Color.DarkGray;
             this.caixaTexPer6.PlaceholderText = "ID do Veículo. Ex: 01";
-            this.caixaTexPer6.Size = new System.Drawing.Size(369, 39);
+            this.caixaTexPer6.Size = new System.Drawing.Size(367, 39);
             this.caixaTexPer6.TabIndex = 36;
             this.caixaTexPer6.Texts = "";
             this.caixaTexPer6.UnderlinedStyle = false;
             // 
-            // label1
+            // tabPage2
             // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.tabPage2.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.tabPage2.Controls.Add(this.label10);
+            this.tabPage2.Controls.Add(this.label9);
+            this.tabPage2.Controls.Add(this.tableLayoutPanel4);
+            this.tabPage2.Controls.Add(this.tableLayoutPanel6);
+            this.tabPage2.Controls.Add(this.tableLayoutPanel5);
+            this.tabPage2.Controls.Add(this.tableLayoutPanel3);
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(1318, 523);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Alterar/Editar";
+            this.tabPage2.Click += new System.EventHandler(this.tabPage2_Click);
+            // 
+            // label9
+            // 
+            this.label9.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(426, 392);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(470, 13);
+            this.label9.TabIndex = 84;
+            this.label9.Text = "Fazer as mesma coisas da tela de cadastro de veículo com relação às máscaras e ca" +
+    "ixas de texto";
+            // 
+            // tableLayoutPanel4
+            // 
+            this.tableLayoutPanel4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(31, 46);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(231, 24);
-            this.label1.TabIndex = 37;
-            this.label1.Text = "ID do Veículo p/ Excluir:";
+            this.tableLayoutPanel4.ColumnCount = 4;
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 35.82202F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 28.35596F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 35.14329F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 0.6033183F));
+            this.tableLayoutPanel4.Controls.Add(this.btnVoltar, 1, 0);
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(-4, 439);
+            this.tableLayoutPanel4.Name = "tableLayoutPanel4";
+            this.tableLayoutPanel4.RowCount = 1;
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(1322, 60);
+            this.tableLayoutPanel4.TabIndex = 83;
             // 
-            // botaoPers1
+            // btnVoltar
             // 
-            this.botaoPers1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.btnVoltar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.botaoPers1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.botaoPers1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.botaoPers1.BorderColor = System.Drawing.Color.PeachPuff;
-            this.botaoPers1.BorderRadius = 5;
-            this.botaoPers1.BorderSize = 0;
-            this.botaoPers1.FlatAppearance.BorderSize = 0;
-            this.botaoPers1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.botaoPers1.Font = new System.Drawing.Font("Arial Black", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.botaoPers1.ForeColor = System.Drawing.Color.White;
-            this.botaoPers1.Location = new System.Drawing.Point(25, 151);
-            this.botaoPers1.Name = "botaoPers1";
-            this.botaoPers1.Size = new System.Drawing.Size(369, 40);
-            this.botaoPers1.TabIndex = 22;
-            this.botaoPers1.Text = "EXCLUIR";
-            this.botaoPers1.TextColor = System.Drawing.Color.White;
-            this.botaoPers1.UseVisualStyleBackColor = false;
+            this.btnVoltar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(254)))), ((int)(((byte)(40)))));
+            this.btnVoltar.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(254)))), ((int)(((byte)(40)))));
+            this.btnVoltar.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btnVoltar.BorderRadius = 5;
+            this.btnVoltar.BorderSize = 0;
+            this.btnVoltar.FlatAppearance.BorderSize = 0;
+            this.btnVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVoltar.Font = new System.Drawing.Font("Arial Black", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVoltar.ForeColor = System.Drawing.Color.White;
+            this.btnVoltar.Location = new System.Drawing.Point(476, 3);
+            this.btnVoltar.Name = "btnVoltar";
+            this.btnVoltar.Size = new System.Drawing.Size(369, 50);
+            this.btnVoltar.TabIndex = 17;
+            this.btnVoltar.Text = "ATUALIZAR CADASTRO";
+            this.btnVoltar.TextColor = System.Drawing.Color.White;
+            this.btnVoltar.UseVisualStyleBackColor = false;
             // 
             // tableLayoutPanel6
             // 
@@ -285,10 +316,12 @@
             this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 28.59304F));
             this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 1.815431F));
             this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 28.35596F));
-            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2.111614F));
-            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 28.35596F));
+            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 1.891074F));
+            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 28.59304F));
             this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.600302F));
             this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 0.6033183F));
+            this.tableLayoutPanel6.Controls.Add(this.label7, 5, 0);
+            this.tableLayoutPanel6.Controls.Add(this.caixaTexPer7, 5, 1);
             this.tableLayoutPanel6.Controls.Add(this.label6, 1, 0);
             this.tableLayoutPanel6.Controls.Add(this.caixaTexPer4, 1, 1);
             this.tableLayoutPanel6.Controls.Add(this.comboBoxPers2, 3, 1);
@@ -300,6 +333,76 @@
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 53F));
             this.tableLayoutPanel6.Size = new System.Drawing.Size(1322, 96);
             this.tableLayoutPanel6.TabIndex = 80;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label7.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(875, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(372, 43);
+            this.label7.TabIndex = 85;
+            this.label7.Text = "ID do veículo p/ Atualizar:";
+            // 
+            // caixaTexPer7
+            // 
+            this.caixaTexPer7.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.caixaTexPer7.BackColor = System.Drawing.SystemColors.Window;
+            this.caixaTexPer7.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
+            this.caixaTexPer7.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.caixaTexPer7.BorderRadius = 5;
+            this.caixaTexPer7.BorderSize = 2;
+            this.caixaTexPer7.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.caixaTexPer7.ForeColor = System.Drawing.Color.Black;
+            this.caixaTexPer7.Location = new System.Drawing.Point(876, 47);
+            this.caixaTexPer7.Margin = new System.Windows.Forms.Padding(4);
+            this.caixaTexPer7.Multiline = false;
+            this.caixaTexPer7.Name = "caixaTexPer7";
+            this.caixaTexPer7.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
+            this.caixaTexPer7.PasswordChar = false;
+            this.caixaTexPer7.PlaceholderColor = System.Drawing.Color.DarkGray;
+            this.caixaTexPer7.PlaceholderText = "Ex: 01";
+            this.caixaTexPer7.Size = new System.Drawing.Size(370, 39);
+            this.caixaTexPer7.TabIndex = 85;
+            this.caixaTexPer7.Texts = "";
+            this.caixaTexPer7.UnderlinedStyle = false;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label6.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(73, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(372, 43);
+            this.label6.TabIndex = 84;
+            this.label6.Text = "Preço p/dia do veículo:";
+            // 
+            // caixaTexPer4
+            // 
+            this.caixaTexPer4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.caixaTexPer4.BackColor = System.Drawing.SystemColors.Window;
+            this.caixaTexPer4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
+            this.caixaTexPer4.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.caixaTexPer4.BorderRadius = 5;
+            this.caixaTexPer4.BorderSize = 2;
+            this.caixaTexPer4.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.caixaTexPer4.ForeColor = System.Drawing.Color.Black;
+            this.caixaTexPer4.Location = new System.Drawing.Point(74, 47);
+            this.caixaTexPer4.Margin = new System.Windows.Forms.Padding(4);
+            this.caixaTexPer4.Multiline = false;
+            this.caixaTexPer4.Name = "caixaTexPer4";
+            this.caixaTexPer4.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
+            this.caixaTexPer4.PasswordChar = false;
+            this.caixaTexPer4.PlaceholderColor = System.Drawing.Color.DarkGray;
+            this.caixaTexPer4.PlaceholderText = "Ex: R$ 350,00";
+            this.caixaTexPer4.Size = new System.Drawing.Size(370, 39);
+            this.caixaTexPer4.TabIndex = 84;
+            this.caixaTexPer4.Texts = "";
+            this.caixaTexPer4.UnderlinedStyle = false;
             // 
             // comboBoxPers2
             // 
@@ -603,59 +706,46 @@
             this.label5.TabIndex = 34;
             this.label5.Text = "Ano do Veículo:";
             // 
-            // tableLayoutPanel4
+            // label3
             // 
-            this.tableLayoutPanel4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(379, 136);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(609, 29);
+            this.label3.TabIndex = 72;
+            this.label3.Text = "Busca, Alteração e Exclusão de Cadastro de Veículo";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.tableLayoutPanel4.ColumnCount = 4;
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 35.82202F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 28.35596F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 35.14329F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 0.6033183F));
-            this.tableLayoutPanel4.Controls.Add(this.btnVoltar, 1, 0);
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(-4, 439);
-            this.tableLayoutPanel4.Name = "tableLayoutPanel4";
-            this.tableLayoutPanel4.RowCount = 1;
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(1322, 60);
-            this.tableLayoutPanel4.TabIndex = 83;
+            this.tableLayoutPanel1.ColumnCount = 3;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel1.Controls.Add(this.pictureBox1, 1, 0);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(12, 12);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 1;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1326, 117);
+            this.tableLayoutPanel1.TabIndex = 71;
             // 
-            // btnVoltar
+            // pictureBox1
             // 
-            this.btnVoltar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnVoltar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(254)))), ((int)(((byte)(40)))));
-            this.btnVoltar.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(254)))), ((int)(((byte)(40)))));
-            this.btnVoltar.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.btnVoltar.BorderRadius = 5;
-            this.btnVoltar.BorderSize = 0;
-            this.btnVoltar.FlatAppearance.BorderSize = 0;
-            this.btnVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnVoltar.Font = new System.Drawing.Font("Arial Black", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVoltar.ForeColor = System.Drawing.Color.White;
-            this.btnVoltar.Location = new System.Drawing.Point(476, 3);
-            this.btnVoltar.Name = "btnVoltar";
-            this.btnVoltar.Size = new System.Drawing.Size(369, 50);
-            this.btnVoltar.TabIndex = 17;
-            this.btnVoltar.Text = "ATUALIZAR CADASTRO";
-            this.btnVoltar.TextColor = System.Drawing.Color.White;
-            this.btnVoltar.UseVisualStyleBackColor = false;
-            // 
-            // tableLayoutPanel2
-            // 
-            this.tableLayoutPanel2.ColumnCount = 3;
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2.199661F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 97.80034F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 176F));
-            this.tableLayoutPanel2.Controls.Add(this.groupBox1, 1, 0);
-            this.tableLayoutPanel2.Controls.Add(this.groupBox2, 1, 1);
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(6, 6);
-            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
-            this.tableLayoutPanel2.RowCount = 2;
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(612, 497);
-            this.tableLayoutPanel2.TabIndex = 3;
+            this.pictureBox1.Image = global::PIM_4_Desktop.Properties.Resources.Tentativa_Logo;
+            this.pictureBox1.Location = new System.Drawing.Point(445, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(436, 111);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
             // 
             // botaoPers2
             // 
@@ -676,40 +766,15 @@
             this.botaoPers2.TextColor = System.Drawing.Color.White;
             this.botaoPers2.UseVisualStyleBackColor = false;
             // 
-            // caixaTexPer4
+            // label10
             // 
-            this.caixaTexPer4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.caixaTexPer4.BackColor = System.Drawing.SystemColors.Window;
-            this.caixaTexPer4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
-            this.caixaTexPer4.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.caixaTexPer4.BorderRadius = 5;
-            this.caixaTexPer4.BorderSize = 2;
-            this.caixaTexPer4.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.caixaTexPer4.ForeColor = System.Drawing.Color.Black;
-            this.caixaTexPer4.Location = new System.Drawing.Point(74, 47);
-            this.caixaTexPer4.Margin = new System.Windows.Forms.Padding(4);
-            this.caixaTexPer4.Multiline = false;
-            this.caixaTexPer4.Name = "caixaTexPer4";
-            this.caixaTexPer4.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
-            this.caixaTexPer4.PasswordChar = false;
-            this.caixaTexPer4.PlaceholderColor = System.Drawing.Color.DarkGray;
-            this.caixaTexPer4.PlaceholderText = "Ex: 01";
-            this.caixaTexPer4.Size = new System.Drawing.Size(370, 39);
-            this.caixaTexPer4.TabIndex = 84;
-            this.caixaTexPer4.Texts = "";
-            this.caixaTexPer4.UnderlinedStyle = false;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label6.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(73, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(372, 43);
-            this.label6.TabIndex = 84;
-            this.label6.Text = "ID do veículo p/ Atualizar:";
+            this.label10.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(452, 423);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(401, 13);
+            this.label10.TabIndex = 85;
+            this.label10.Text = "Fazer aparecer uma caixa de mensagem mostrando que foi atualizado com sucesso";
             // 
             // Form14
             // 
@@ -724,21 +789,22 @@
             this.Text = "Form14";
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
-            this.tabPage2.ResumeLayout(false);
-            this.tableLayoutPanel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.tableLayoutPanel2.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
+            this.tableLayoutPanel4.ResumeLayout(false);
             this.tableLayoutPanel6.ResumeLayout(false);
             this.tableLayoutPanel6.PerformLayout();
             this.tableLayoutPanel5.ResumeLayout(false);
             this.tableLayoutPanel5.PerformLayout();
             this.tableLayoutPanel3.ResumeLayout(false);
             this.tableLayoutPanel3.PerformLayout();
-            this.tableLayoutPanel4.ResumeLayout(false);
-            this.tableLayoutPanel2.ResumeLayout(false);
+            this.tableLayoutPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -782,5 +848,9 @@
         private Controles_Personalizados.botaoPers botaoPers2;
         private System.Windows.Forms.Label label6;
         private Controles_Personalizados.caixaTexPer caixaTexPer4;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label7;
+        private Controles_Personalizados.caixaTexPer caixaTexPer7;
+        private System.Windows.Forms.Label label10;
     }
 }

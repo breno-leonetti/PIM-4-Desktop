@@ -8,17 +8,21 @@ namespace PIM_4_Desktop.Classes
 {
     class Pessoa
     {
-        protected string Nome;
-        protected string Email;
-        protected string Senha;
-        protected long Telefone;
-        protected int Id;
-        protected DateTime DataNascimento;
+        public string Nome;
+        public string Email;
+        public string Senha;
+        public long Telefone;
+        public int Id;
+        public DateTime DataNascimento;
 
-        public Pessoa()
+
+        public Pessoa(string nome, string email, string senha, long telefone, DateTime dataNascimento)
         {
-
+            Nome = nome;
+            Email = email;
+            Senha = senha;
+            Telefone = telefone;
+            DataNascimento = dataNascimento;
         }
-
     }  
 }

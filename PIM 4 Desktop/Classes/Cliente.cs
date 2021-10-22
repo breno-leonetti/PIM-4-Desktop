@@ -8,11 +8,24 @@ namespace PIM_4_Desktop.Classes
 {
     class Cliente : Pessoa
     {
-        protected int NCarteiraHabilitacao;
-        protected long CPF;
+        public int NCarteiraHabilitacao;
+        public long CPF;
 
-        public Cliente()
+       
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="cpf"></param>
+        /// <param name="ncarteiraHabilitacao"></param>
+        /// <param name="Nome"></param>
+        
+ 
+        public Cliente(string nome, string email, string senha, long telefone, DateTime dataNascimento, long cpf, int ncarteiraHabilitacao) : base(nome, email, senha, telefone,dataNascimento)
         {
+            
+            NCarteiraHabilitacao = ncarteiraHabilitacao;
+            CPF = cpf;
+           
 
         }
     }

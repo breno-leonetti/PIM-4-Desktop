@@ -52,6 +52,9 @@
     <Compile Include="2 Console Menu Principal %28Tela Inicial Após Login%29.Designer.cs">
       <DependentUpon>2 Console Menu Principal %28Tela Inicial Após Login%29.cs</DependentUpon>
     </Compile>
+    <Compile Include="Classes\Cliente.cs" />
+    <Compile Include="Classes\Funcionario.cs" />
+    <Compile Include="Classes\Pessoa.cs" />
     <Compile Include="Controles Personalizados\botaoPers.cs">
       <SubType>Component</SubType>
     </Compile>

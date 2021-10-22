@@ -11,13 +11,18 @@ namespace PIM_4_Desktop.Classes
     {
         protected long RG;
         protected long CPF;
-        protected int matricula;
+        protected int Matricula;
         protected float SalarioBase;
         protected string Cargo;
         // *****conferir cargo como sera feito*******
-        public Funcionario()
-        {
 
+        public Funcionario(string nome, string email, string senha, long telefone, DateTime dataNascimento, long rg, long cpf, int matricula, float salariobase) 
+            : base(nome, email, senha, telefone, dataNascimento)
+        {
+            RG = rg;
+            CPF = cpf;
+            Matricula = matricula;
+            SalarioBase = salariobase;
         }
     }
 }

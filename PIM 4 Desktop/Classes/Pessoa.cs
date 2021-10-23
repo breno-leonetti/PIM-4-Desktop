@@ -15,7 +15,14 @@ namespace PIM_4_Desktop.Classes
         public int Id;
         public DateTime DataNascimento;
 
-
+        /// <summary>
+        /// Construtor Pessoa sera utilizado pelas classes cliente e funcionario
+        /// </summary>
+        /// <param name="nome"></param>
+        /// <param name="email"></param>
+        /// <param name="senha"></param>
+        /// <param name="telefone"></param>
+        /// <param name="dataNascimento"></param>
         public Pessoa(string nome, string email, string senha, long telefone, DateTime dataNascimento)
         {
             Nome = nome;

@@ -12,21 +12,24 @@ namespace PIM_4_Desktop.Classes
         public long CPF;
 
        
+
         /// <summary>
-        /// 
+        /// construtor para cadastro de clientes
         /// </summary>
-        /// <param name="cpf"></param>
+        /// <param name="nome"></param>
+        /// <param name="email"></param>
+        /// <param name="senha"></param>
+        /// <param name="telefone"></param>
+        /// <param name="dataNascimento"></param>
+        /// <param name="cpf">pode ser substituido por </param>
         /// <param name="ncarteiraHabilitacao"></param>
-        /// <param name="Nome"></param>
-        
- 
         public Cliente(string nome, string email, string senha, long telefone, DateTime dataNascimento, long cpf, int ncarteiraHabilitacao) : base(nome, email, senha, telefone,dataNascimento)
         {
             
             NCarteiraHabilitacao = ncarteiraHabilitacao;
             CPF = cpf;
-           
 
         }
+
     }
 }

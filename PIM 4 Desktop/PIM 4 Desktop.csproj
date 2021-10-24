@@ -53,8 +53,11 @@
       <DependentUpon>2 Console Menu Principal %28Tela Inicial Após Login%29.cs</DependentUpon>
     </Compile>
     <Compile Include="Classes\Cliente.cs" />
+    <Compile Include="Classes\Endereco.cs" />
     <Compile Include="Classes\Funcionario.cs" />
+    <Compile Include="Classes\Modelo.cs" />
     <Compile Include="Classes\Pessoa.cs" />
+    <Compile Include="Classes\Veiculos.cs" />
     <Compile Include="Controles Personalizados\botaoPers.cs">
       <SubType>Component</SubType>
     </Compile>

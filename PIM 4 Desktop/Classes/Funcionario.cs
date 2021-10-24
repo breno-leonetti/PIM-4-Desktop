@@ -14,15 +14,33 @@ namespace PIM_4_Desktop.Classes
         protected int Matricula;
         protected float SalarioBase;
         protected string Cargo;
+        protected Endereco Endereco;
         // *****conferir cargo como sera feito*******
 
-        public Funcionario(string nome, string email, string senha, long telefone, DateTime dataNascimento, long rg, long cpf, int matricula, float salariobase) 
+
+        /// <summary>
+        /// Construtor funcionario para cadastro
+        /// </summary>
+        /// <param name="nome"></param>
+        /// <param name="email"></param>
+        /// <param name="senha"></param>
+        /// <param name="telefone"></param>
+        /// <param name="dataNascimento"></param>
+        /// <param name="rg"></param>
+        /// <param name="cpf"></param>
+        /// <param name="matricula">sera gerado pelo sistema???</param>
+        /// <param name="salariobase"></param>
+        /// <param name="endereco">deve ser chamado o construtor de Endereco</param>
+        /// 
+        public Funcionario(string nome, string email, string senha, long telefone, DateTime dataNascimento, long rg, long cpf, int matricula, float salariobase, Endereco endereco, string cargo) 
             : base(nome, email, senha, telefone, dataNascimento)
         {
             RG = rg;
             CPF = cpf;
             Matricula = matricula;
             SalarioBase = salariobase;
+            Endereco = endereco;
+            Cargo = cargo;
         }
     }
 }

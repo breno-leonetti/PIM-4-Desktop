@@ -325,7 +325,7 @@
             this.caixaTexPer10.Multiline = false;
             this.caixaTexPer10.Name = "caixaTexPer10";
             this.caixaTexPer10.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
-            this.caixaTexPer10.PasswordChar = false;
+            this.caixaTexPer10.PasswordChar = true;
             this.caixaTexPer10.PlaceholderColor = System.Drawing.Color.DarkGray;
             this.caixaTexPer10.PlaceholderText = "Insira Uma Senha Válida";
             this.caixaTexPer10.Size = new System.Drawing.Size(370, 39);

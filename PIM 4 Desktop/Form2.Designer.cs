@@ -33,9 +33,9 @@
             this.label3 = new System.Windows.Forms.Label();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.botaoPers7 = new PIM_4_Desktop.Controles_Personalizados.botaoPers();
-            this.botaoPers4 = new PIM_4_Desktop.Controles_Personalizados.botaoPers();
             this.botaoPers3 = new PIM_4_Desktop.Controles_Personalizados.botaoPers();
             this.botaoPers2 = new PIM_4_Desktop.Controles_Personalizados.botaoPers();
+            this.botaoPers4 = new PIM_4_Desktop.Controles_Personalizados.botaoPers();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.btnFuncionários = new PIM_4_Desktop.Controles_Personalizados.botaoPers();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
@@ -135,27 +135,6 @@
             this.botaoPers7.TextColor = System.Drawing.Color.White;
             this.botaoPers7.UseVisualStyleBackColor = false;
             // 
-            // botaoPers4
-            // 
-            this.botaoPers4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.botaoPers4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(172)))), ((int)(((byte)(255)))));
-            this.botaoPers4.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(172)))), ((int)(((byte)(255)))));
-            this.botaoPers4.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.botaoPers4.BorderRadius = 5;
-            this.botaoPers4.BorderSize = 0;
-            this.botaoPers4.FlatAppearance.BorderSize = 0;
-            this.botaoPers4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.botaoPers4.Font = new System.Drawing.Font("Arial Black", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.botaoPers4.ForeColor = System.Drawing.Color.White;
-            this.botaoPers4.Location = new System.Drawing.Point(684, 3);
-            this.botaoPers4.Name = "botaoPers4";
-            this.botaoPers4.Size = new System.Drawing.Size(370, 50);
-            this.botaoPers4.TabIndex = 21;
-            this.botaoPers4.Text = "VEÍCULO";
-            this.botaoPers4.TextColor = System.Drawing.Color.White;
-            this.botaoPers4.UseVisualStyleBackColor = false;
-            // 
             // botaoPers3
             // 
             this.botaoPers3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -197,6 +176,27 @@
             this.botaoPers2.Text = "CUSTOS / GASTOS";
             this.botaoPers2.TextColor = System.Drawing.Color.White;
             this.botaoPers2.UseVisualStyleBackColor = false;
+            // 
+            // botaoPers4
+            // 
+            this.botaoPers4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.botaoPers4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(172)))), ((int)(((byte)(255)))));
+            this.botaoPers4.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(172)))), ((int)(((byte)(255)))));
+            this.botaoPers4.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.botaoPers4.BorderRadius = 5;
+            this.botaoPers4.BorderSize = 0;
+            this.botaoPers4.FlatAppearance.BorderSize = 0;
+            this.botaoPers4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.botaoPers4.Font = new System.Drawing.Font("Arial Black", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.botaoPers4.ForeColor = System.Drawing.Color.White;
+            this.botaoPers4.Location = new System.Drawing.Point(684, 3);
+            this.botaoPers4.Name = "botaoPers4";
+            this.botaoPers4.Size = new System.Drawing.Size(370, 50);
+            this.botaoPers4.TabIndex = 21;
+            this.botaoPers4.Text = "VEÍCULO";
+            this.botaoPers4.TextColor = System.Drawing.Color.White;
+            this.botaoPers4.UseVisualStyleBackColor = false;
             // 
             // tableLayoutPanel4
             // 
@@ -303,11 +303,11 @@
             this.label5.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(523, 203);
+            this.label5.Location = new System.Drawing.Point(521, 203);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(299, 18);
+            this.label5.Size = new System.Drawing.Size(303, 18);
             this.label5.TabIndex = 81;
-            this.label5.Text = "Escolha uma opção abaxo para cadastrar";
+            this.label5.Text = "Escolha uma opção abaixo para cadastrar";
             // 
             // Form2
             // 

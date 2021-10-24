@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -38,8 +39,6 @@
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.txbMatriculaFunc = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
-            this.comboBoxPers2 = new PIM_4_Desktop.Controles_Personalizados.ComboBoxPers();
-            this.comboBoxPers1 = new PIM_4_Desktop.Controles_Personalizados.ComboBoxPers();
             this.btnEntrar = new PIM_4_Desktop.Controles_Personalizados.botaoPers();
             this.txbSenhaLogin = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
             this.tableLayoutPanel1.SuspendLayout();
@@ -191,50 +190,6 @@
             this.txbMatriculaFunc.UnderlinedStyle = false;
             this.txbMatriculaFunc._TextChanged += new System.EventHandler(this.txbMatriculaFunc__TextChanged);
             // 
-            // comboBoxPers2
-            // 
-            this.comboBoxPers2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.comboBoxPers2.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.comboBoxPers2.BorderColor = System.Drawing.Color.MediumSlateBlue;
-            this.comboBoxPers2.BorderRadius = 0;
-            this.comboBoxPers2.BorderSize = 2;
-            this.comboBoxPers2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDown;
-            this.comboBoxPers2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.comboBoxPers2.ForeColor = System.Drawing.Color.DimGray;
-            this.comboBoxPers2.IconColor = System.Drawing.Color.MediumSlateBlue;
-            this.comboBoxPers2.ListBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(228)))), ((int)(((byte)(245)))));
-            this.comboBoxPers2.ListTextColor = System.Drawing.Color.DimGray;
-            this.comboBoxPers2.Location = new System.Drawing.Point(796, 519);
-            this.comboBoxPers2.MinimumSize = new System.Drawing.Size(200, 30);
-            this.comboBoxPers2.Name = "comboBoxPers2";
-            this.comboBoxPers2.Padding = new System.Windows.Forms.Padding(2);
-            this.comboBoxPers2.Size = new System.Drawing.Size(372, 30);
-            this.comboBoxPers2.TabIndex = 16;
-            this.comboBoxPers2.Texts = "";
-            // 
-            // comboBoxPers1
-            // 
-            this.comboBoxPers1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.comboBoxPers1.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.comboBoxPers1.BorderColor = System.Drawing.Color.MediumSlateBlue;
-            this.comboBoxPers1.BorderRadius = 10;
-            this.comboBoxPers1.BorderSize = 2;
-            this.comboBoxPers1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDown;
-            this.comboBoxPers1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.comboBoxPers1.ForeColor = System.Drawing.Color.DimGray;
-            this.comboBoxPers1.IconColor = System.Drawing.Color.MediumSlateBlue;
-            this.comboBoxPers1.ListBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(228)))), ((int)(((byte)(245)))));
-            this.comboBoxPers1.ListTextColor = System.Drawing.Color.DimGray;
-            this.comboBoxPers1.Location = new System.Drawing.Point(796, 574);
-            this.comboBoxPers1.MinimumSize = new System.Drawing.Size(200, 30);
-            this.comboBoxPers1.Name = "comboBoxPers1";
-            this.comboBoxPers1.Padding = new System.Windows.Forms.Padding(2);
-            this.comboBoxPers1.Size = new System.Drawing.Size(372, 30);
-            this.comboBoxPers1.TabIndex = 15;
-            this.comboBoxPers1.Texts = "";
-            // 
             // btnEntrar
             // 
             this.btnEntrar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -290,8 +245,6 @@
             this.ClientSize = new System.Drawing.Size(1350, 729);
             this.Controls.Add(this.txbSenhaLogin);
             this.Controls.Add(this.txbMatriculaFunc);
-            this.Controls.Add(this.comboBoxPers2);
-            this.Controls.Add(this.comboBoxPers1);
             this.Controls.Add(this.btnEntrar);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.radioButton1);
@@ -302,6 +255,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MinimumSize = new System.Drawing.Size(1364, 726);
             this.Name = "Form1";
             this.Text = "AluCar Locadora de Veículos";
@@ -323,8 +277,6 @@
         private System.Windows.Forms.RadioButton radioButton4;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private Controles_Personalizados.botaoPers btnEntrar;
-        private Controles_Personalizados.ComboBoxPers comboBoxPers1;
-        private Controles_Personalizados.ComboBoxPers comboBoxPers2;
         private Controles_Personalizados.caixaTexPer txbMatriculaFunc;
         private Controles_Personalizados.caixaTexPer txbSenhaLogin;
     }

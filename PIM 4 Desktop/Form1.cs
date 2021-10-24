@@ -29,7 +29,7 @@ namespace PIM_4_Desktop
 
         private void btnEntrar_Click(object sender, EventArgs e)
         {
-            var form = new Form18();
+            var form = new Form17();
             this.Hide();
             form.Show();
         }

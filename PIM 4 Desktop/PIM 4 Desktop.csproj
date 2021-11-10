@@ -52,6 +52,11 @@
     <Compile Include="2 Console Menu Principal %28Tela Inicial Após Login%29.Designer.cs">
       <DependentUpon>2 Console Menu Principal %28Tela Inicial Após Login%29.cs</DependentUpon>
     </Compile>
+    <Compile Include="Back\Banco\Autenticar.cs" />
+    <Compile Include="Back\Banco\CheckIn.cs" />
+    <Compile Include="Back\Banco\TarefaSQL.cs" />
+    <Compile Include="Back\Gerenciador.cs" />
+    <Compile Include="Back\Modelos\UsuarioLogado.cs" />
     <Compile Include="Classes\Cliente.cs" />
     <Compile Include="Classes\Endereco.cs" />
     <Compile Include="Classes\Funcionario.cs" />
@@ -266,5 +271,6 @@
   <ItemGroup>
     <None Include="Resources\Tentativa Logo.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PIM_4_Desktop.Back.Banco;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -29,9 +30,14 @@ namespace PIM_4_Desktop
 
         private void btnEntrar_Click(object sender, EventArgs e)
         {
-            var form = new Form17();
-            this.Hide();
-            form.Show();
+            if (new Autenticar(txbSenhaLogin.Texts).Executar(txbMatriculaFunc.Texts))
+            {
+                var form = new _2_Console_Menu_Principal__Tela_Inicial_Após_Login_();
+                this.Hide();
+                form.Show();
+                return;
+            }
+            MessageBox.Show("Usuário e/ou senha inválido(s).");
         }
                        
     }

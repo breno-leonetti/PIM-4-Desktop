@@ -41,23 +41,23 @@
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.caixaTexPer3 = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
-            this.caixaTexPer1 = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
-            this.caixaTexPer10 = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
+            this.nome = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
+            this.email = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
+            this.senha = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.caixaTexPer9 = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
+            this.cpf = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.caixaTexPer4 = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
-            this.caixaTexPer6 = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
+            this.data = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
+            this.cnh = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
             this.label7 = new System.Windows.Forms.Label();
-            this.caixaTexPer11 = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
+            this.telefone1 = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
             this.label17 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.caixaTexPer2 = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
+            this.telefone2 = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
             this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -158,6 +158,7 @@
             this.botaoPers4.Text = "PROSSEGUIR";
             this.botaoPers4.TextColor = System.Drawing.Color.White;
             this.botaoPers4.UseVisualStyleBackColor = false;
+            this.botaoPers4.Click += new System.EventHandler(this.botaoPers4_Click);
             // 
             // botaoPers3
             // 
@@ -179,6 +180,7 @@
             this.botaoPers3.Text = "VOLTAR";
             this.botaoPers3.TextColor = System.Drawing.Color.White;
             this.botaoPers3.UseVisualStyleBackColor = false;
+            this.botaoPers3.Click += new System.EventHandler(this.botaoPers3_Click);
             // 
             // label8
             // 
@@ -247,9 +249,9 @@
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 28.50679F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.524887F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 0.6033183F));
-            this.tableLayoutPanel3.Controls.Add(this.caixaTexPer3, 5, 1);
-            this.tableLayoutPanel3.Controls.Add(this.caixaTexPer1, 1, 1);
-            this.tableLayoutPanel3.Controls.Add(this.caixaTexPer10, 3, 1);
+            this.tableLayoutPanel3.Controls.Add(this.nome, 5, 1);
+            this.tableLayoutPanel3.Controls.Add(this.email, 1, 1);
+            this.tableLayoutPanel3.Controls.Add(this.senha, 3, 1);
             this.tableLayoutPanel3.Controls.Add(this.label4, 5, 0);
             this.tableLayoutPanel3.Controls.Add(this.label2, 3, 0);
             this.tableLayoutPanel3.Controls.Add(this.label1, 1, 0);
@@ -261,77 +263,77 @@
             this.tableLayoutPanel3.Size = new System.Drawing.Size(1326, 96);
             this.tableLayoutPanel3.TabIndex = 66;
             // 
-            // caixaTexPer3
+            // nome
             // 
-            this.caixaTexPer3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.nome.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.caixaTexPer3.BackColor = System.Drawing.SystemColors.Window;
-            this.caixaTexPer3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
-            this.caixaTexPer3.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.caixaTexPer3.BorderRadius = 5;
-            this.caixaTexPer3.BorderSize = 2;
-            this.caixaTexPer3.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.caixaTexPer3.ForeColor = System.Drawing.Color.Black;
-            this.caixaTexPer3.Location = new System.Drawing.Point(882, 47);
-            this.caixaTexPer3.Margin = new System.Windows.Forms.Padding(4);
-            this.caixaTexPer3.Multiline = false;
-            this.caixaTexPer3.Name = "caixaTexPer3";
-            this.caixaTexPer3.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
-            this.caixaTexPer3.PasswordChar = false;
-            this.caixaTexPer3.PlaceholderColor = System.Drawing.Color.DarkGray;
-            this.caixaTexPer3.PlaceholderText = "Ex: João da Silva";
-            this.caixaTexPer3.Size = new System.Drawing.Size(370, 39);
-            this.caixaTexPer3.TabIndex = 66;
-            this.caixaTexPer3.Texts = "";
-            this.caixaTexPer3.UnderlinedStyle = false;
+            this.nome.BackColor = System.Drawing.SystemColors.Window;
+            this.nome.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
+            this.nome.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.nome.BorderRadius = 5;
+            this.nome.BorderSize = 2;
+            this.nome.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nome.ForeColor = System.Drawing.Color.Black;
+            this.nome.Location = new System.Drawing.Point(882, 47);
+            this.nome.Margin = new System.Windows.Forms.Padding(4);
+            this.nome.Multiline = false;
+            this.nome.Name = "nome";
+            this.nome.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
+            this.nome.PasswordChar = false;
+            this.nome.PlaceholderColor = System.Drawing.Color.DarkGray;
+            this.nome.PlaceholderText = "Ex: João da Silva";
+            this.nome.Size = new System.Drawing.Size(370, 39);
+            this.nome.TabIndex = 66;
+            this.nome.Texts = "";
+            this.nome.UnderlinedStyle = false;
             // 
-            // caixaTexPer1
+            // email
             // 
-            this.caixaTexPer1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.email.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.caixaTexPer1.BackColor = System.Drawing.SystemColors.Window;
-            this.caixaTexPer1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
-            this.caixaTexPer1.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.caixaTexPer1.BorderRadius = 5;
-            this.caixaTexPer1.BorderSize = 2;
-            this.caixaTexPer1.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.caixaTexPer1.ForeColor = System.Drawing.Color.Black;
-            this.caixaTexPer1.Location = new System.Drawing.Point(74, 47);
-            this.caixaTexPer1.Margin = new System.Windows.Forms.Padding(4);
-            this.caixaTexPer1.Multiline = false;
-            this.caixaTexPer1.Name = "caixaTexPer1";
-            this.caixaTexPer1.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
-            this.caixaTexPer1.PasswordChar = false;
-            this.caixaTexPer1.PlaceholderColor = System.Drawing.Color.DarkGray;
-            this.caixaTexPer1.PlaceholderText = "Ex: joaodasilva@gmail.com";
-            this.caixaTexPer1.Size = new System.Drawing.Size(370, 39);
-            this.caixaTexPer1.TabIndex = 65;
-            this.caixaTexPer1.Texts = "";
-            this.caixaTexPer1.UnderlinedStyle = false;
+            this.email.BackColor = System.Drawing.SystemColors.Window;
+            this.email.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
+            this.email.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.email.BorderRadius = 5;
+            this.email.BorderSize = 2;
+            this.email.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.email.ForeColor = System.Drawing.Color.Black;
+            this.email.Location = new System.Drawing.Point(74, 47);
+            this.email.Margin = new System.Windows.Forms.Padding(4);
+            this.email.Multiline = false;
+            this.email.Name = "email";
+            this.email.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
+            this.email.PasswordChar = false;
+            this.email.PlaceholderColor = System.Drawing.Color.DarkGray;
+            this.email.PlaceholderText = "Ex: joaodasilva@gmail.com";
+            this.email.Size = new System.Drawing.Size(370, 39);
+            this.email.TabIndex = 65;
+            this.email.Texts = "";
+            this.email.UnderlinedStyle = false;
             // 
-            // caixaTexPer10
+            // senha
             // 
-            this.caixaTexPer10.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.senha.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.caixaTexPer10.BackColor = System.Drawing.SystemColors.Window;
-            this.caixaTexPer10.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
-            this.caixaTexPer10.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.caixaTexPer10.BorderRadius = 5;
-            this.caixaTexPer10.BorderSize = 2;
-            this.caixaTexPer10.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.caixaTexPer10.ForeColor = System.Drawing.Color.Black;
-            this.caixaTexPer10.Location = new System.Drawing.Point(478, 47);
-            this.caixaTexPer10.Margin = new System.Windows.Forms.Padding(4);
-            this.caixaTexPer10.Multiline = false;
-            this.caixaTexPer10.Name = "caixaTexPer10";
-            this.caixaTexPer10.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
-            this.caixaTexPer10.PasswordChar = true;
-            this.caixaTexPer10.PlaceholderColor = System.Drawing.Color.DarkGray;
-            this.caixaTexPer10.PlaceholderText = "Insira Uma Senha Válida";
-            this.caixaTexPer10.Size = new System.Drawing.Size(370, 39);
-            this.caixaTexPer10.TabIndex = 65;
-            this.caixaTexPer10.Texts = "";
-            this.caixaTexPer10.UnderlinedStyle = false;
+            this.senha.BackColor = System.Drawing.SystemColors.Window;
+            this.senha.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
+            this.senha.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.senha.BorderRadius = 5;
+            this.senha.BorderSize = 2;
+            this.senha.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.senha.ForeColor = System.Drawing.Color.Black;
+            this.senha.Location = new System.Drawing.Point(478, 47);
+            this.senha.Margin = new System.Windows.Forms.Padding(4);
+            this.senha.Multiline = false;
+            this.senha.Name = "senha";
+            this.senha.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
+            this.senha.PasswordChar = true;
+            this.senha.PlaceholderColor = System.Drawing.Color.DarkGray;
+            this.senha.PlaceholderText = "Insira Uma Senha Válida";
+            this.senha.Size = new System.Drawing.Size(370, 39);
+            this.senha.TabIndex = 65;
+            this.senha.Texts = "";
+            this.senha.UnderlinedStyle = false;
             // 
             // label4
             // 
@@ -379,11 +381,11 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 28.50679F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.524887F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 0.6033183F));
-            this.tableLayoutPanel2.Controls.Add(this.caixaTexPer9, 1, 1);
+            this.tableLayoutPanel2.Controls.Add(this.cpf, 1, 1);
             this.tableLayoutPanel2.Controls.Add(this.label5, 5, 0);
             this.tableLayoutPanel2.Controls.Add(this.label6, 3, 0);
-            this.tableLayoutPanel2.Controls.Add(this.caixaTexPer4, 3, 1);
-            this.tableLayoutPanel2.Controls.Add(this.caixaTexPer6, 5, 1);
+            this.tableLayoutPanel2.Controls.Add(this.data, 3, 1);
+            this.tableLayoutPanel2.Controls.Add(this.cnh, 5, 1);
             this.tableLayoutPanel2.Controls.Add(this.label7, 1, 0);
             this.tableLayoutPanel2.Location = new System.Drawing.Point(12, 344);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
@@ -393,29 +395,29 @@
             this.tableLayoutPanel2.Size = new System.Drawing.Size(1326, 96);
             this.tableLayoutPanel2.TabIndex = 68;
             // 
-            // caixaTexPer9
+            // cpf
             // 
-            this.caixaTexPer9.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.cpf.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.caixaTexPer9.BackColor = System.Drawing.SystemColors.Window;
-            this.caixaTexPer9.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
-            this.caixaTexPer9.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.caixaTexPer9.BorderRadius = 5;
-            this.caixaTexPer9.BorderSize = 2;
-            this.caixaTexPer9.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.caixaTexPer9.ForeColor = System.Drawing.Color.Black;
-            this.caixaTexPer9.Location = new System.Drawing.Point(75, 47);
-            this.caixaTexPer9.Margin = new System.Windows.Forms.Padding(4);
-            this.caixaTexPer9.Multiline = false;
-            this.caixaTexPer9.Name = "caixaTexPer9";
-            this.caixaTexPer9.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
-            this.caixaTexPer9.PasswordChar = false;
-            this.caixaTexPer9.PlaceholderColor = System.Drawing.Color.DarkGray;
-            this.caixaTexPer9.PlaceholderText = "Ex: 123.456.789-00";
-            this.caixaTexPer9.Size = new System.Drawing.Size(370, 39);
-            this.caixaTexPer9.TabIndex = 62;
-            this.caixaTexPer9.Texts = "";
-            this.caixaTexPer9.UnderlinedStyle = false;
+            this.cpf.BackColor = System.Drawing.SystemColors.Window;
+            this.cpf.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
+            this.cpf.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.cpf.BorderRadius = 5;
+            this.cpf.BorderSize = 2;
+            this.cpf.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cpf.ForeColor = System.Drawing.Color.Black;
+            this.cpf.Location = new System.Drawing.Point(75, 47);
+            this.cpf.Margin = new System.Windows.Forms.Padding(4);
+            this.cpf.Multiline = false;
+            this.cpf.Name = "cpf";
+            this.cpf.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
+            this.cpf.PasswordChar = false;
+            this.cpf.PlaceholderColor = System.Drawing.Color.DarkGray;
+            this.cpf.PlaceholderText = "Ex: 123.456.789-00";
+            this.cpf.Size = new System.Drawing.Size(370, 39);
+            this.cpf.TabIndex = 62;
+            this.cpf.Texts = "";
+            this.cpf.UnderlinedStyle = false;
             // 
             // label5
             // 
@@ -439,53 +441,53 @@
             this.label6.TabIndex = 35;
             this.label6.Text = "Data de Nascimento*:";
             // 
-            // caixaTexPer4
+            // data
             // 
-            this.caixaTexPer4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.data.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.caixaTexPer4.BackColor = System.Drawing.SystemColors.Window;
-            this.caixaTexPer4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
-            this.caixaTexPer4.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.caixaTexPer4.BorderRadius = 5;
-            this.caixaTexPer4.BorderSize = 2;
-            this.caixaTexPer4.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.caixaTexPer4.ForeColor = System.Drawing.Color.Black;
-            this.caixaTexPer4.Location = new System.Drawing.Point(478, 47);
-            this.caixaTexPer4.Margin = new System.Windows.Forms.Padding(4);
-            this.caixaTexPer4.Multiline = false;
-            this.caixaTexPer4.Name = "caixaTexPer4";
-            this.caixaTexPer4.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
-            this.caixaTexPer4.PasswordChar = false;
-            this.caixaTexPer4.PlaceholderColor = System.Drawing.Color.DarkGray;
-            this.caixaTexPer4.PlaceholderText = "Ex: 01/01/1990";
-            this.caixaTexPer4.Size = new System.Drawing.Size(370, 39);
-            this.caixaTexPer4.TabIndex = 35;
-            this.caixaTexPer4.Texts = "";
-            this.caixaTexPer4.UnderlinedStyle = false;
+            this.data.BackColor = System.Drawing.SystemColors.Window;
+            this.data.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
+            this.data.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.data.BorderRadius = 5;
+            this.data.BorderSize = 2;
+            this.data.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.data.ForeColor = System.Drawing.Color.Black;
+            this.data.Location = new System.Drawing.Point(478, 47);
+            this.data.Margin = new System.Windows.Forms.Padding(4);
+            this.data.Multiline = false;
+            this.data.Name = "data";
+            this.data.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
+            this.data.PasswordChar = false;
+            this.data.PlaceholderColor = System.Drawing.Color.DarkGray;
+            this.data.PlaceholderText = "Ex: 01/01/1990";
+            this.data.Size = new System.Drawing.Size(370, 39);
+            this.data.TabIndex = 35;
+            this.data.Texts = "";
+            this.data.UnderlinedStyle = false;
             // 
-            // caixaTexPer6
+            // cnh
             // 
-            this.caixaTexPer6.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.cnh.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.caixaTexPer6.BackColor = System.Drawing.SystemColors.Window;
-            this.caixaTexPer6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
-            this.caixaTexPer6.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.caixaTexPer6.BorderRadius = 5;
-            this.caixaTexPer6.BorderSize = 2;
-            this.caixaTexPer6.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.caixaTexPer6.ForeColor = System.Drawing.Color.Black;
-            this.caixaTexPer6.Location = new System.Drawing.Point(882, 47);
-            this.caixaTexPer6.Margin = new System.Windows.Forms.Padding(4);
-            this.caixaTexPer6.Multiline = false;
-            this.caixaTexPer6.Name = "caixaTexPer6";
-            this.caixaTexPer6.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
-            this.caixaTexPer6.PasswordChar = false;
-            this.caixaTexPer6.PlaceholderColor = System.Drawing.Color.DarkGray;
-            this.caixaTexPer6.PlaceholderText = "Ex: 123.456.789-00";
-            this.caixaTexPer6.Size = new System.Drawing.Size(370, 39);
-            this.caixaTexPer6.TabIndex = 35;
-            this.caixaTexPer6.Texts = "";
-            this.caixaTexPer6.UnderlinedStyle = false;
+            this.cnh.BackColor = System.Drawing.SystemColors.Window;
+            this.cnh.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
+            this.cnh.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.cnh.BorderRadius = 5;
+            this.cnh.BorderSize = 2;
+            this.cnh.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cnh.ForeColor = System.Drawing.Color.Black;
+            this.cnh.Location = new System.Drawing.Point(882, 47);
+            this.cnh.Margin = new System.Windows.Forms.Padding(4);
+            this.cnh.Multiline = false;
+            this.cnh.Name = "cnh";
+            this.cnh.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
+            this.cnh.PasswordChar = false;
+            this.cnh.PlaceholderColor = System.Drawing.Color.DarkGray;
+            this.cnh.PlaceholderText = "Ex: 123.456.789-00";
+            this.cnh.Size = new System.Drawing.Size(370, 39);
+            this.cnh.TabIndex = 35;
+            this.cnh.Texts = "";
+            this.cnh.UnderlinedStyle = false;
             // 
             // label7
             // 
@@ -498,29 +500,29 @@
             this.label7.TabIndex = 34;
             this.label7.Text = "CPF ou Passaporte*/**:";
             // 
-            // caixaTexPer11
+            // telefone1
             // 
-            this.caixaTexPer11.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.telefone1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.caixaTexPer11.BackColor = System.Drawing.SystemColors.Window;
-            this.caixaTexPer11.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
-            this.caixaTexPer11.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.caixaTexPer11.BorderRadius = 5;
-            this.caixaTexPer11.BorderSize = 2;
-            this.caixaTexPer11.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.caixaTexPer11.ForeColor = System.Drawing.Color.Black;
-            this.caixaTexPer11.Location = new System.Drawing.Point(272, 47);
-            this.caixaTexPer11.Margin = new System.Windows.Forms.Padding(4);
-            this.caixaTexPer11.Multiline = false;
-            this.caixaTexPer11.Name = "caixaTexPer11";
-            this.caixaTexPer11.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
-            this.caixaTexPer11.PasswordChar = false;
-            this.caixaTexPer11.PlaceholderColor = System.Drawing.Color.DarkGray;
-            this.caixaTexPer11.PlaceholderText = "Ex: (12) 12345-6789";
-            this.caixaTexPer11.Size = new System.Drawing.Size(370, 39);
-            this.caixaTexPer11.TabIndex = 29;
-            this.caixaTexPer11.Texts = "";
-            this.caixaTexPer11.UnderlinedStyle = false;
+            this.telefone1.BackColor = System.Drawing.SystemColors.Window;
+            this.telefone1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
+            this.telefone1.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.telefone1.BorderRadius = 5;
+            this.telefone1.BorderSize = 2;
+            this.telefone1.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.telefone1.ForeColor = System.Drawing.Color.Black;
+            this.telefone1.Location = new System.Drawing.Point(272, 47);
+            this.telefone1.Margin = new System.Windows.Forms.Padding(4);
+            this.telefone1.Multiline = false;
+            this.telefone1.Name = "telefone1";
+            this.telefone1.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
+            this.telefone1.PasswordChar = false;
+            this.telefone1.PlaceholderColor = System.Drawing.Color.DarkGray;
+            this.telefone1.PlaceholderText = "Ex: (12) 12345-6789";
+            this.telefone1.Size = new System.Drawing.Size(370, 39);
+            this.telefone1.TabIndex = 29;
+            this.telefone1.Texts = "";
+            this.telefone1.UnderlinedStyle = false;
             // 
             // label17
             // 
@@ -544,29 +546,29 @@
             this.label16.TabIndex = 32;
             this.label16.Text = "Telefone/Celular 2 (Opcional):";
             // 
-            // caixaTexPer2
+            // telefone2
             // 
-            this.caixaTexPer2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.telefone2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.caixaTexPer2.BackColor = System.Drawing.SystemColors.Window;
-            this.caixaTexPer2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
-            this.caixaTexPer2.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.caixaTexPer2.BorderRadius = 5;
-            this.caixaTexPer2.BorderSize = 2;
-            this.caixaTexPer2.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.caixaTexPer2.ForeColor = System.Drawing.Color.Black;
-            this.caixaTexPer2.Location = new System.Drawing.Point(683, 47);
-            this.caixaTexPer2.Margin = new System.Windows.Forms.Padding(4);
-            this.caixaTexPer2.Multiline = false;
-            this.caixaTexPer2.Name = "caixaTexPer2";
-            this.caixaTexPer2.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
-            this.caixaTexPer2.PasswordChar = false;
-            this.caixaTexPer2.PlaceholderColor = System.Drawing.Color.DarkGray;
-            this.caixaTexPer2.PlaceholderText = "Ex: (12) 12345-6789";
-            this.caixaTexPer2.Size = new System.Drawing.Size(370, 39);
-            this.caixaTexPer2.TabIndex = 32;
-            this.caixaTexPer2.Texts = "";
-            this.caixaTexPer2.UnderlinedStyle = false;
+            this.telefone2.BackColor = System.Drawing.SystemColors.Window;
+            this.telefone2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
+            this.telefone2.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.telefone2.BorderRadius = 5;
+            this.telefone2.BorderSize = 2;
+            this.telefone2.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.telefone2.ForeColor = System.Drawing.Color.Black;
+            this.telefone2.Location = new System.Drawing.Point(683, 47);
+            this.telefone2.Margin = new System.Windows.Forms.Padding(4);
+            this.telefone2.Multiline = false;
+            this.telefone2.Name = "telefone2";
+            this.telefone2.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
+            this.telefone2.PasswordChar = false;
+            this.telefone2.PlaceholderColor = System.Drawing.Color.DarkGray;
+            this.telefone2.PlaceholderText = "Ex: (12) 12345-6789";
+            this.telefone2.Size = new System.Drawing.Size(370, 39);
+            this.telefone2.TabIndex = 32;
+            this.telefone2.Texts = "";
+            this.telefone2.UnderlinedStyle = false;
             // 
             // tableLayoutPanel6
             // 
@@ -579,10 +581,10 @@
             this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 28.50679F));
             this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 19.62264F));
             this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 0.6037736F));
-            this.tableLayoutPanel6.Controls.Add(this.caixaTexPer2, 3, 1);
+            this.tableLayoutPanel6.Controls.Add(this.telefone2, 3, 1);
             this.tableLayoutPanel6.Controls.Add(this.label16, 3, 0);
             this.tableLayoutPanel6.Controls.Add(this.label17, 1, 0);
-            this.tableLayoutPanel6.Controls.Add(this.caixaTexPer11, 1, 1);
+            this.tableLayoutPanel6.Controls.Add(this.telefone1, 1, 1);
             this.tableLayoutPanel6.Location = new System.Drawing.Point(12, 469);
             this.tableLayoutPanel6.Name = "tableLayoutPanel6";
             this.tableLayoutPanel6.RowCount = 2;
@@ -640,23 +642,23 @@
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
-        private Controles_Personalizados.caixaTexPer caixaTexPer3;
-        private Controles_Personalizados.caixaTexPer caixaTexPer1;
-        private Controles_Personalizados.caixaTexPer caixaTexPer10;
+        private Controles_Personalizados.caixaTexPer nome;
+        private Controles_Personalizados.caixaTexPer email;
+        private Controles_Personalizados.caixaTexPer senha;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
-        private Controles_Personalizados.caixaTexPer caixaTexPer9;
+        private Controles_Personalizados.caixaTexPer cpf;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private Controles_Personalizados.caixaTexPer caixaTexPer4;
-        private Controles_Personalizados.caixaTexPer caixaTexPer6;
+        private Controles_Personalizados.caixaTexPer data;
+        private Controles_Personalizados.caixaTexPer cnh;
         private System.Windows.Forms.Label label7;
-        private Controles_Personalizados.caixaTexPer caixaTexPer11;
+        private Controles_Personalizados.caixaTexPer telefone1;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label16;
-        private Controles_Personalizados.caixaTexPer caixaTexPer2;
+        private Controles_Personalizados.caixaTexPer telefone2;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel6;
     }
 }

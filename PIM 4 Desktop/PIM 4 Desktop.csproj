@@ -53,6 +53,7 @@
       <DependentUpon>2 Console Menu Principal %28Tela Inicial Após Login%29.cs</DependentUpon>
     </Compile>
     <Compile Include="Back\Banco\Autenticar.cs" />
+    <Compile Include="Back\Banco\CadastrarCliente.cs" />
     <Compile Include="Back\Banco\CheckIn.cs" />
     <Compile Include="Back\Banco\CheckOut.cs" />
     <Compile Include="Back\Banco\RecuperarVeiculoAlugado.cs" />

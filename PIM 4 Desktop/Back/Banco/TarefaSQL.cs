@@ -20,6 +20,6 @@ namespace PIM_4_Desktop.Back.Banco
 
 
 
-        public abstract T Executar(String valor);
+        public abstract T Executar(string valor);
     }
 }

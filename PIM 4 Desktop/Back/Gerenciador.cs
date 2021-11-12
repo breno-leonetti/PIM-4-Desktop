@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace PIM_4_Desktop.Back
 {
@@ -19,6 +20,13 @@ namespace PIM_4_Desktop.Back
             }
             UsuarioLogado = usuarioLogado;
             return true;
+        }
+
+        public void deslogarUsuario(Form formularioAtual)
+        {
+            new Form1().Show();
+            formularioAtual.Hide();
+            UsuarioLogado = null;
         }
     }
 }

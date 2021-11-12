@@ -26,5 +26,14 @@ namespace PIM_4_Desktop
             this.Hide();
             new Form3().Show();
         }
+
+        private void botaoPers5_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void btnSair_Click(object sender, EventArgs e)
+        {
+            new Gerenciador().deslogarUsuario(this);
+        }
     }
 }

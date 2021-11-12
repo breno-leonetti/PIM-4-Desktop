@@ -137,6 +137,7 @@
             this.btnSair.Text = "SAIR/LOG OFF";
             this.btnSair.TextColor = System.Drawing.Color.White;
             this.btnSair.UseVisualStyleBackColor = false;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // botaoPers1
             // 
@@ -243,6 +244,7 @@
             this.botaoPers5.Text = "ALTERAR";
             this.botaoPers5.TextColor = System.Drawing.Color.White;
             this.botaoPers5.UseVisualStyleBackColor = false;
+            this.botaoPers5.Click += new System.EventHandler(this.botaoPers5_Click);
             // 
             // botaoPers6
             // 

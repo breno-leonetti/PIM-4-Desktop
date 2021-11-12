@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PIM_4_Desktop.Back;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,5 +18,9 @@ namespace PIM_4_Desktop
             InitializeComponent();
         }
 
+        private void botaoPers5_Click(object sender, EventArgs e)
+        {
+            new Gerenciador().deslogarUsuario(this);
+        }
     }
 }

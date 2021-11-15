@@ -276,6 +276,7 @@
             this.botaoPers5.Text = "SAIR / LOG OFF";
             this.botaoPers5.TextColor = System.Drawing.Color.White;
             this.botaoPers5.UseVisualStyleBackColor = false;
+            this.botaoPers5.Click += new System.EventHandler(this.botaoPers5_Click);
             // 
             // botaoPers6
             // 

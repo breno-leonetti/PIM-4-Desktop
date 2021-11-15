@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PIM_4_Desktop.Back;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,13 @@ namespace PIM_4_Desktop
         public Form5()
         {
             InitializeComponent();
+            caixaTexPer2.Texts = Gerenciador.UsuarioLogado.Matricula;
+            caixaTexPer2.Enabled = false;
+        }
+
+        private void botaoPers4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

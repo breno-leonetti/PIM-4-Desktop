@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace PIM_4_Desktop.Classes
 {
-    class Cliente : Pessoa
+    public class Cliente : Pessoa
     {
-        public int NCarteiraHabilitacao;
-        public long CPF;
+        public string NCarteiraHabilitacao;
+        public string CPF;
 
        
 
@@ -23,7 +23,7 @@ namespace PIM_4_Desktop.Classes
         /// <param name="dataNascimento"></param>
         /// <param name="cpf">pode ser substituido por passaport </param>
         /// <param name="ncarteiraHabilitacao"></param>
-        public Cliente(string nome, string email, string senha, long telefone, DateTime dataNascimento, long cpf, int ncarteiraHabilitacao) : base(nome, email, senha, telefone,dataNascimento)
+        public Cliente(string nome, string email, string senha, string telefone, DateTime dataNascimento, string cpf, string ncarteiraHabilitacao) : base(nome, email, senha, telefone,dataNascimento)
         {
             
             NCarteiraHabilitacao = ncarteiraHabilitacao;

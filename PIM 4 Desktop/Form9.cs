@@ -16,5 +16,11 @@ namespace PIM_4_Desktop
         {
             InitializeComponent();
         }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new Form16().Show();
+        }
     }
 }

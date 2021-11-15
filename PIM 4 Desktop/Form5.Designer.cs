@@ -418,6 +418,7 @@
             this.botaoPers4.Text = "CONFIRMAR CHECK-OUT";
             this.botaoPers4.TextColor = System.Drawing.Color.White;
             this.botaoPers4.UseVisualStyleBackColor = false;
+            this.botaoPers4.Click += new System.EventHandler(this.botaoPers4_Click);
             // 
             // botaoPers3
             // 

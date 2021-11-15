@@ -101,6 +101,7 @@
             this.botaoPers5.Text = "SAIR / LOG OFF";
             this.botaoPers5.TextColor = System.Drawing.Color.White;
             this.botaoPers5.UseVisualStyleBackColor = false;
+            this.botaoPers5.Click += new System.EventHandler(this.botaoPers5_Click);
             // 
             // botaoPers6
             // 
@@ -122,6 +123,7 @@
             this.botaoPers6.Text = "VOLTAR";
             this.botaoPers6.TextColor = System.Drawing.Color.White;
             this.botaoPers6.UseVisualStyleBackColor = false;
+            this.botaoPers6.Click += new System.EventHandler(this.botaoPers6_Click);
             // 
             // tableLayoutPanel4
             // 
@@ -226,6 +228,7 @@
             this.botaoPers3.Text = "CLIENTE PESSOA FÍSICA";
             this.botaoPers3.TextColor = System.Drawing.Color.White;
             this.botaoPers3.UseVisualStyleBackColor = false;
+            this.botaoPers3.Click += new System.EventHandler(this.botaoPers3_Click);
             // 
             // botaoPers2
             // 

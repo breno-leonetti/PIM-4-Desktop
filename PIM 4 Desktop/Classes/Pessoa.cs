@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace PIM_4_Desktop.Classes
 {
-    class Pessoa
+    public class Pessoa
     {
         public string Nome;
         public string Email;
         public string Senha;
-        public long Telefone;
+        public string Telefone;
         public int Id;
         public DateTime DataNascimento;
 
@@ -23,7 +23,7 @@ namespace PIM_4_Desktop.Classes
         /// <param name="senha"></param>
         /// <param name="telefone"></param>
         /// <param name="dataNascimento"></param>
-        public Pessoa(string nome, string email, string senha, long telefone, DateTime dataNascimento)
+        public Pessoa(string nome, string email, string senha, string telefone, DateTime dataNascimento)
         {
             Nome = nome;
             Email = email;

@@ -56,6 +56,7 @@
     <Compile Include="Back\Banco\CadastrarCliente.cs" />
     <Compile Include="Back\Banco\CheckIn.cs" />
     <Compile Include="Back\Banco\CheckOut.cs" />
+    <Compile Include="Back\Banco\DeletarCliente.cs" />
     <Compile Include="Back\Banco\RecuperarVeiculoAlugado.cs" />
     <Compile Include="Back\Banco\TarefaSQL.cs" />
     <Compile Include="Back\Gerenciador.cs" />

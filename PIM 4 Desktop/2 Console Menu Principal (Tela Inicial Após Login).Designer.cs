@@ -34,17 +34,17 @@
             this.NomeFuncionario = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
-            this.label5 = new System.Windows.Forms.Label();
             this.botaoPers4 = new PIM_4_Desktop.Controles_Personalizados.botaoPers();
             this.botaoPers3 = new PIM_4_Desktop.Controles_Personalizados.botaoPers();
             this.botaoPers1 = new PIM_4_Desktop.Controles_Personalizados.botaoPers();
             this.botaoPers2 = new PIM_4_Desktop.Controles_Personalizados.botaoPers();
+            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.botaoPers7 = new PIM_4_Desktop.Controles_Personalizados.botaoPers();
             this.botaoPers5 = new PIM_4_Desktop.Controles_Personalizados.botaoPers();
             this.botaoPers6 = new PIM_4_Desktop.Controles_Personalizados.botaoPers();
+            this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.btnSair = new PIM_4_Desktop.Controles_Personalizados.botaoPers();
+            this.label5 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tableLayoutPanel2.SuspendLayout();
@@ -141,56 +141,6 @@
             this.tableLayoutPanel2.Size = new System.Drawing.Size(1326, 141);
             this.tableLayoutPanel2.TabIndex = 25;
             // 
-            // tableLayoutPanel3
-            // 
-            this.tableLayoutPanel3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.tableLayoutPanel3.ColumnCount = 8;
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5.505279F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 28.35596F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 1.960784F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 28.35596F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 1.960784F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 28.35596F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.751131F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 0.6033183F));
-            this.tableLayoutPanel3.Controls.Add(this.botaoPers7, 1, 0);
-            this.tableLayoutPanel3.Controls.Add(this.botaoPers5, 3, 0);
-            this.tableLayoutPanel3.Controls.Add(this.botaoPers6, 5, 0);
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(12, 257);
-            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
-            this.tableLayoutPanel3.RowCount = 1;
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(1326, 60);
-            this.tableLayoutPanel3.TabIndex = 32;
-            // 
-            // tableLayoutPanel4
-            // 
-            this.tableLayoutPanel4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.tableLayoutPanel4.ColumnCount = 4;
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 35.82202F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 28.35596F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 35.14329F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 0.6033183F));
-            this.tableLayoutPanel4.Controls.Add(this.btnSair, 1, 0);
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(12, 600);
-            this.tableLayoutPanel4.Name = "tableLayoutPanel4";
-            this.tableLayoutPanel4.RowCount = 1;
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(1326, 60);
-            this.tableLayoutPanel4.TabIndex = 33;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(478, 320);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(406, 13);
-            this.label5.TabIndex = 81;
-            this.label5.Text = "Os botões \"alterar\", \"buscar\", e \"exlcluir\" irão levar para o mesmo menu, o form " +
-    "\"16\"";
-            // 
             // botaoPers4
             // 
             this.botaoPers4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -211,6 +161,7 @@
             this.botaoPers4.Text = "EXCLUIR";
             this.botaoPers4.TextColor = System.Drawing.Color.White;
             this.botaoPers4.UseVisualStyleBackColor = false;
+            this.botaoPers4.Click += new System.EventHandler(this.botaoPers4_Click);
             // 
             // botaoPers3
             // 
@@ -275,6 +226,29 @@
             this.botaoPers2.Text = "CHECK-OUT";
             this.botaoPers2.TextColor = System.Drawing.Color.White;
             this.botaoPers2.UseVisualStyleBackColor = false;
+            // 
+            // tableLayoutPanel3
+            // 
+            this.tableLayoutPanel3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel3.ColumnCount = 8;
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5.505279F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 28.35596F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 1.960784F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 28.35596F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 1.960784F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 28.35596F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.751131F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 0.6033183F));
+            this.tableLayoutPanel3.Controls.Add(this.botaoPers7, 1, 0);
+            this.tableLayoutPanel3.Controls.Add(this.botaoPers5, 3, 0);
+            this.tableLayoutPanel3.Controls.Add(this.botaoPers6, 5, 0);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(12, 257);
+            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
+            this.tableLayoutPanel3.RowCount = 1;
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(1326, 60);
+            this.tableLayoutPanel3.TabIndex = 32;
             // 
             // botaoPers7
             // 
@@ -342,6 +316,23 @@
             this.botaoPers6.UseVisualStyleBackColor = false;
             this.botaoPers6.Click += new System.EventHandler(this.botaoPers6_Click);
             // 
+            // tableLayoutPanel4
+            // 
+            this.tableLayoutPanel4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel4.ColumnCount = 4;
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 35.82202F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 28.35596F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 35.14329F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 0.6033183F));
+            this.tableLayoutPanel4.Controls.Add(this.btnSair, 1, 0);
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(12, 600);
+            this.tableLayoutPanel4.Name = "tableLayoutPanel4";
+            this.tableLayoutPanel4.RowCount = 1;
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(1326, 60);
+            this.tableLayoutPanel4.TabIndex = 33;
+            // 
             // btnSair
             // 
             this.btnSair.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -363,6 +354,16 @@
             this.btnSair.TextColor = System.Drawing.Color.White;
             this.btnSair.UseVisualStyleBackColor = false;
             this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(478, 320);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(406, 13);
+            this.label5.TabIndex = 81;
+            this.label5.Text = "Os botões \"alterar\", \"buscar\", e \"exlcluir\" irão levar para o mesmo menu, o form " +
+    "\"16\"";
             // 
             // _2_Console_Menu_Principal__Tela_Inicial_Após_Login_
             // 

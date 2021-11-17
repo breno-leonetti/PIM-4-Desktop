@@ -21,7 +21,7 @@ namespace PIM_4_Desktop.Classes
         /// <param name="senha"></param>
         /// <param name="telefone"></param>
         /// <param name="dataNascimento"></param>
-        /// <param name="cpf">pode ser substituido por </param>
+        /// <param name="cpf">pode ser substituido por passaport </param>
         /// <param name="ncarteiraHabilitacao"></param>
         public Cliente(string nome, string email, string senha, string telefone, DateTime dataNascimento, string cpf, string ncarteiraHabilitacao) : base(nome, email, senha, telefone,dataNascimento)
         {

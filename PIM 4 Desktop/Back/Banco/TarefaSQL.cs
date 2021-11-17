@@ -9,7 +9,7 @@ namespace PIM_4_Desktop.Back.Banco
 {
     public abstract class TarefaSQL<T>
     {
-        private const string conexaoString = @"Data Source=DESKTOP-NGTV0A3\SQLEXPRESS;Initial Catalog=Alucar; Integrated Security=True;";
+        private const string conexaoString = @"Data Source=DESKTOP-NGTV0A3\SQLEXPRESS;Initial Catalog=BD_Alucar; Integrated Security=True;";
         private SqlConnection conexaoSql = new SqlConnection(conexaoString);
 
         protected SqlConnection getConexao()

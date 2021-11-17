@@ -498,7 +498,7 @@
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(372, 43);
             this.label7.TabIndex = 34;
-            this.label7.Text = "CPF ou Passaporte*/**:";
+            this.label7.Text = "CPF*/**";
             // 
             // telefone1
             // 

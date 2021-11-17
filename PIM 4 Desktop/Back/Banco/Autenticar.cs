@@ -10,8 +10,8 @@ namespace PIM_4_Desktop.Back.Banco
 {
     public class Autenticar : TarefaSQL<bool>
     {
-        private const string comandoSQL = "Select NomeFuncionario, RG from Funcionario" +
-                " where Id_Funcionario=@matricula";
+        private const string comandoSQL = "SELECT nome, senha from Funcionarios" +
+                " where matricula=@matricula";
         private string Senha;
 
         public Autenticar(string senha)

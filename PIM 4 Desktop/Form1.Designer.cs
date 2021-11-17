@@ -29,13 +29,8 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.txbMatriculaFunc = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
@@ -45,41 +40,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // radioButton1
-            // 
-            this.radioButton1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.Location = new System.Drawing.Point(312, 296);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(117, 31);
-            this.radioButton1.TabIndex = 1;
-            this.radioButton1.Text = "Gerente";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            // 
-            // label1
-            // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label1.AutoSize = true;
-            this.label1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.label1.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(190, 244);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(394, 27);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Selecione Uma das Opções Abaixo:";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
             // label2
             // 
             this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(795, 244);
+            this.label2.Location = new System.Drawing.Point(456, 234);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(247, 24);
             this.label2.TabIndex = 4;
@@ -91,50 +58,11 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(796, 338);
+            this.label3.Location = new System.Drawing.Point(457, 328);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(76, 24);
             this.label3.TabIndex = 5;
             this.label3.Text = "Senha:";
-            // 
-            // radioButton2
-            // 
-            this.radioButton2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.Location = new System.Drawing.Point(312, 333);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(133, 31);
-            this.radioButton2.TabIndex = 9;
-            this.radioButton2.Text = "Vendedor";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            // 
-            // radioButton3
-            // 
-            this.radioButton3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton3.Location = new System.Drawing.Point(314, 370);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(138, 31);
-            this.radioButton3.TabIndex = 10;
-            this.radioButton3.Text = "Secretário";
-            this.radioButton3.UseVisualStyleBackColor = true;
-            // 
-            // radioButton4
-            // 
-            this.radioButton4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton4.Location = new System.Drawing.Point(314, 407);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(115, 31);
-            this.radioButton4.TabIndex = 11;
-            this.radioButton4.Text = "Lavador";
-            this.radioButton4.UseVisualStyleBackColor = true;
             // 
             // tableLayoutPanel1
             // 
@@ -176,7 +104,7 @@
             this.txbMatriculaFunc.BorderSize = 2;
             this.txbMatriculaFunc.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbMatriculaFunc.ForeColor = System.Drawing.Color.Black;
-            this.txbMatriculaFunc.Location = new System.Drawing.Point(796, 275);
+            this.txbMatriculaFunc.Location = new System.Drawing.Point(457, 265);
             this.txbMatriculaFunc.Margin = new System.Windows.Forms.Padding(4);
             this.txbMatriculaFunc.Multiline = false;
             this.txbMatriculaFunc.Name = "txbMatriculaFunc";
@@ -184,7 +112,7 @@
             this.txbMatriculaFunc.PasswordChar = false;
             this.txbMatriculaFunc.PlaceholderColor = System.Drawing.Color.DarkGray;
             this.txbMatriculaFunc.PlaceholderText = "Ex: 123456789";
-            this.txbMatriculaFunc.Size = new System.Drawing.Size(372, 39);
+            this.txbMatriculaFunc.Size = new System.Drawing.Size(436, 39);
             this.txbMatriculaFunc.TabIndex = 18;
             this.txbMatriculaFunc.Texts = "";
             this.txbMatriculaFunc.UnderlinedStyle = false;
@@ -203,9 +131,9 @@
             this.btnEntrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEntrar.Font = new System.Drawing.Font("Arial Black", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEntrar.ForeColor = System.Drawing.Color.White;
-            this.btnEntrar.Location = new System.Drawing.Point(796, 434);
+            this.btnEntrar.Location = new System.Drawing.Point(457, 424);
             this.btnEntrar.Name = "btnEntrar";
-            this.btnEntrar.Size = new System.Drawing.Size(372, 39);
+            this.btnEntrar.Size = new System.Drawing.Size(436, 78);
             this.btnEntrar.TabIndex = 14;
             this.btnEntrar.Text = "ENTRAR";
             this.btnEntrar.TextColor = System.Drawing.Color.White;
@@ -223,7 +151,7 @@
             this.txbSenhaLogin.BorderSize = 2;
             this.txbSenhaLogin.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbSenhaLogin.ForeColor = System.Drawing.Color.Black;
-            this.txbSenhaLogin.Location = new System.Drawing.Point(796, 369);
+            this.txbSenhaLogin.Location = new System.Drawing.Point(457, 359);
             this.txbSenhaLogin.Margin = new System.Windows.Forms.Padding(4);
             this.txbSenhaLogin.Multiline = false;
             this.txbSenhaLogin.Name = "txbSenhaLogin";
@@ -231,7 +159,7 @@
             this.txbSenhaLogin.PasswordChar = true;
             this.txbSenhaLogin.PlaceholderColor = System.Drawing.Color.DarkGray;
             this.txbSenhaLogin.PlaceholderText = "Sua Senha de Login do Aplicativo";
-            this.txbSenhaLogin.Size = new System.Drawing.Size(372, 39);
+            this.txbSenhaLogin.Size = new System.Drawing.Size(436, 39);
             this.txbSenhaLogin.TabIndex = 19;
             this.txbSenhaLogin.Texts = "";
             this.txbSenhaLogin.UnderlinedStyle = false;
@@ -246,11 +174,6 @@
             this.Controls.Add(this.txbSenhaLogin);
             this.Controls.Add(this.txbMatriculaFunc);
             this.Controls.Add(this.btnEntrar);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.radioButton1);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton4);
-            this.Controls.Add(this.radioButton3);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -267,14 +190,9 @@
         }
 
         #endregion
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton4;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private Controles_Personalizados.botaoPers btnEntrar;
         private Controles_Personalizados.caixaTexPer txbMatriculaFunc;

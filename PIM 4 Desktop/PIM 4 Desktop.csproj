@@ -56,6 +56,7 @@
     <Compile Include="Back\Banco\CadastrarCliente.cs" />
     <Compile Include="Back\Banco\CheckIn.cs" />
     <Compile Include="Back\Banco\CheckOut.cs" />
+    <Compile Include="Back\Banco\ConsultarReservaPeloId.cs" />
     <Compile Include="Back\Banco\DeletarCliente.cs" />
     <Compile Include="Back\Banco\RecuperarVeiculoAlugado.cs" />
     <Compile Include="Back\Banco\TarefaSQL.cs" />
@@ -67,7 +68,8 @@
     <Compile Include="Classes\Funcionario.cs" />
     <Compile Include="Classes\Modelo.cs" />
     <Compile Include="Classes\Pessoa.cs" />
-    <Compile Include="Classes\Veiculos.cs" />
+    <Compile Include="Classes\Reserva.cs" />
+    <Compile Include="Classes\Veiculo.cs" />
     <Compile Include="Controles Personalizados\botaoPers.cs">
       <SubType>Component</SubType>
     </Compile>

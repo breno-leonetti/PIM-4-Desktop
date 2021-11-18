@@ -10,7 +10,7 @@ namespace PIM_4_Desktop.Back.Banco
 {
     public class Autenticar : TarefaSQL<bool>
     {
-        private const string comandoSQL = "SELECT nome, senha from Funcionarios" +
+        private const string comandoSQL = "SELECT id_funcionario, nome, senha from Funcionarios" +
                 " where matricula=@matricula";
         private string Senha;
 
@@ -30,9 +30,9 @@ namespace PIM_4_Desktop.Back.Banco
             SqlDataReader reader = command.ExecuteReader();
             if (reader.Read())
             {
-                if (Senha.Equals(reader.GetString(1)))
+                if (Senha.Equals(reader.GetString(2)))
                 {
-                    UsuarioLogado usuarioLogado = new UsuarioLogado(matricula, reader.GetString(0));
+                    UsuarioLogado usuarioLogado = new UsuarioLogado(matricula, reader.GetString(1), reader.GetInt32(0));
                     new Gerenciador().logarUsuario(usuarioLogado);
                     return true;
                 }

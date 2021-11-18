@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace PIM_4_Desktop.Classes
 {
-    class Veiculos
+    public class Veiculo
     {
-        public string Modelo; 
-        protected string Placa;
-        protected string Marca;
-        protected string ID_carro;
-        protected string Ano;
-        protected string Quilometragem;
-        public Categ Categoria; // definir como funcionara!!!
+        public string Modelo;
+        public string Placa;
+        public string Marca;
+        public int ID_carro;
+        public int Ano;
+        public decimal Quilometragem;
+        public string Categoria; // definir como funcionara!!!
         public bool Disponibilidade;
 
         /// <summary>
@@ -26,7 +26,7 @@ namespace PIM_4_Desktop.Classes
         /// <param name="ano"></param>
         /// <param name="quilometragem"></param>
         /// <param name="categoria">conferir conceito de entrada</param>
-        public Veiculos(string modelo, string placa, string marca, string ano, string quilometragem, Categ categoria, bool disponibilidade)
+        public Veiculo(string modelo, string placa, string marca, int ano, decimal quilometragem, string categoria, bool disponibilidade, int idCarro)
         {
             Modelo = modelo;
             Placa = placa;
@@ -35,6 +35,7 @@ namespace PIM_4_Desktop.Classes
             Quilometragem = quilometragem;
             Categoria = categoria;
             Disponibilidade = disponibilidade;
+            ID_carro = idCarro;
 
         }
     }

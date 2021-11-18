@@ -55,5 +55,11 @@ namespace PIM_4_Desktop
             this.Hide();
             new Form15().Show();
         }
+
+        private void botaoPers2_Click(object sender, EventArgs e)
+        {
+            new Form5().Show();
+            this.Hide();
+        }
     }
 }

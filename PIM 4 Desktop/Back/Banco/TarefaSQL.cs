@@ -14,6 +14,9 @@ namespace PIM_4_Desktop.Back.Banco
 
         protected SqlConnection getConexao()
         {
+            if (conexaoSql.State == System.Data.ConnectionState.Open) { 
+            return conexaoSql;
+            }
             conexaoSql.Open();
             return conexaoSql;
         }

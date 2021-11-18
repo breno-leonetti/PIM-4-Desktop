@@ -76,6 +76,7 @@
             this.btnVoltar.Text = "VOLTAR AO MENU PRINCIPAL";
             this.btnVoltar.TextColor = System.Drawing.Color.White;
             this.btnVoltar.UseVisualStyleBackColor = false;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // label1
             // 

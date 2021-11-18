@@ -8,6 +8,8 @@ namespace PIM_4_Desktop.Classes
 {
     public class Cliente : Pessoa
     {
+
+        public int IdCliente { get; }
         public string NCarteiraHabilitacao;
         public string CPF;
 
@@ -23,6 +25,7 @@ namespace PIM_4_Desktop.Classes
         /// <param name="dataNascimento"></param>
         /// <param name="cpf">pode ser substituido por passaport </param>
         /// <param name="ncarteiraHabilitacao"></param>
+        /// 
         public Cliente(string nome, string email, string senha, string telefone, DateTime dataNascimento, string cpf, string ncarteiraHabilitacao) : base(nome, email, senha, telefone,dataNascimento)
         {
             
@@ -30,6 +33,13 @@ namespace PIM_4_Desktop.Classes
             CPF = cpf;
 
         }
+
+        public Cliente(string nome, string email, int idCliente) : base(nome, email)
+        {
+            IdCliente = idCliente;
+        }
+
+
 
     }
 }

@@ -226,6 +226,7 @@
             this.botaoPers2.Text = "CHECK-OUT";
             this.botaoPers2.TextColor = System.Drawing.Color.White;
             this.botaoPers2.UseVisualStyleBackColor = false;
+            this.botaoPers2.Click += new System.EventHandler(this.botaoPers2_Click);
             // 
             // tableLayoutPanel3
             // 

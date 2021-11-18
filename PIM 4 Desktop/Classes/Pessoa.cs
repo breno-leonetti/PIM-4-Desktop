@@ -31,5 +31,11 @@ namespace PIM_4_Desktop.Classes
             Telefone = telefone;
             DataNascimento = dataNascimento;
         }
+
+        public Pessoa(string nome, string email)
+        {
+            Nome = nome;
+            Email = email;
+        }
     }  
 }

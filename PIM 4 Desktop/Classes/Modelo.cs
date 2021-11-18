@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PIM_4_Desktop.Classes
 {
-    class Categ
+    public class Categ
     {
         public string Categoria;
         public int Codigo;

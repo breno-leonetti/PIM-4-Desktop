@@ -8,11 +8,13 @@ namespace PIM_4_Desktop.Back.Modelos
 {
     public class UsuarioLogado
     {
+        public int IdFuncionario { get; }
         public string Matricula { get; }
         public string Nome { get; }
 
-        public UsuarioLogado(string matricula, string nome)
+        public UsuarioLogado(string matricula, string nome, int idFuncionario)
         {
+            IdFuncionario = idFuncionario;
             Matricula = matricula;
             Nome = nome;
         }

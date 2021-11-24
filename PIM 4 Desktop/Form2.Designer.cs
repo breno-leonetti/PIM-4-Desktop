@@ -40,6 +40,7 @@
             this.botaoPers5 = new PIM_4_Desktop.Controles_Personalizados.botaoPers();
             this.botaoPers6 = new PIM_4_Desktop.Controles_Personalizados.botaoPers();
             this.label5 = new System.Windows.Forms.Label();
+            this.botaoPers1 = new PIM_4_Desktop.Controles_Personalizados.botaoPers();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tableLayoutPanel2.SuspendLayout();
@@ -101,6 +102,7 @@
             this.tableLayoutPanel2.Controls.Add(this.btnFuncionários, 1, 2);
             this.tableLayoutPanel2.Controls.Add(this.botaoPers3, 1, 0);
             this.tableLayoutPanel2.Controls.Add(this.botaoPers4, 3, 0);
+            this.tableLayoutPanel2.Controls.Add(this.botaoPers1, 3, 2);
             this.tableLayoutPanel2.Location = new System.Drawing.Point(12, 249);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 3;
@@ -267,6 +269,27 @@
             this.label5.TabIndex = 81;
             this.label5.Text = "Escolha uma opção abaixo para cadastrar";
             // 
+            // botaoPers1
+            // 
+            this.botaoPers1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.botaoPers1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(172)))), ((int)(((byte)(255)))));
+            this.botaoPers1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(172)))), ((int)(((byte)(255)))));
+            this.botaoPers1.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.botaoPers1.BorderRadius = 5;
+            this.botaoPers1.BorderSize = 0;
+            this.botaoPers1.FlatAppearance.BorderSize = 0;
+            this.botaoPers1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.botaoPers1.Font = new System.Drawing.Font("Arial Black", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.botaoPers1.ForeColor = System.Drawing.Color.White;
+            this.botaoPers1.Location = new System.Drawing.Point(684, 85);
+            this.botaoPers1.Name = "botaoPers1";
+            this.botaoPers1.Size = new System.Drawing.Size(370, 50);
+            this.botaoPers1.TabIndex = 22;
+            this.botaoPers1.Text = "CUSTOS/GASTOS";
+            this.botaoPers1.TextColor = System.Drawing.Color.White;
+            this.botaoPers1.UseVisualStyleBackColor = false;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -303,5 +326,6 @@
         private Controles_Personalizados.botaoPers botaoPers5;
         private Controles_Personalizados.botaoPers botaoPers6;
         private System.Windows.Forms.Label label5;
+        private Controles_Personalizados.botaoPers botaoPers1;
     }
 }

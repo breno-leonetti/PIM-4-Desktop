@@ -32,18 +32,18 @@
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
-            this.caixaTexPer1 = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
-            this.comboBoxPers1 = new PIM_4_Desktop.Controles_Personalizados.ComboBoxPers();
-            this.comboBoxPers4 = new PIM_4_Desktop.Controles_Personalizados.ComboBoxPers();
+            this.renavam = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
+            this.modelo = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
             this.label13 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
+            this.marca = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.caixaTexPer2 = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
+            this.ano = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.caixaTexPer3 = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
-            this.caixaTexPer5 = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
+            this.quilometragem = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
+            this.placa = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
             this.label4 = new System.Windows.Forms.Label();
             this.botaoPers3 = new PIM_4_Desktop.Controles_Personalizados.botaoPers();
             this.botaoPers4 = new PIM_4_Desktop.Controles_Personalizados.botaoPers();
@@ -53,8 +53,8 @@
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
-            this.caixaTexPer11 = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
-            this.comboBoxPers3 = new PIM_4_Desktop.Controles_Personalizados.ComboBoxPers();
+            this.diaria = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
+            this.cor = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tableLayoutPanel5.SuspendLayout();
@@ -117,12 +117,12 @@
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 28.50679F));
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.524887F));
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 0.6033183F));
-            this.tableLayoutPanel5.Controls.Add(this.caixaTexPer1, 5, 1);
-            this.tableLayoutPanel5.Controls.Add(this.comboBoxPers1, 3, 1);
-            this.tableLayoutPanel5.Controls.Add(this.comboBoxPers4, 1, 1);
+            this.tableLayoutPanel5.Controls.Add(this.renavam, 1, 1);
+            this.tableLayoutPanel5.Controls.Add(this.modelo, 5, 1);
             this.tableLayoutPanel5.Controls.Add(this.label13, 5, 0);
             this.tableLayoutPanel5.Controls.Add(this.label8, 3, 0);
             this.tableLayoutPanel5.Controls.Add(this.label15, 1, 0);
+            this.tableLayoutPanel5.Controls.Add(this.marca, 3, 1);
             this.tableLayoutPanel5.Location = new System.Drawing.Point(12, 194);
             this.tableLayoutPanel5.Name = "tableLayoutPanel5";
             this.tableLayoutPanel5.RowCount = 2;
@@ -131,79 +131,53 @@
             this.tableLayoutPanel5.Size = new System.Drawing.Size(1326, 96);
             this.tableLayoutPanel5.TabIndex = 78;
             // 
-            // caixaTexPer1
+            // renavam
             // 
-            this.caixaTexPer1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.renavam.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.caixaTexPer1.BackColor = System.Drawing.SystemColors.Window;
-            this.caixaTexPer1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
-            this.caixaTexPer1.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.caixaTexPer1.BorderRadius = 5;
-            this.caixaTexPer1.BorderSize = 2;
-            this.caixaTexPer1.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.caixaTexPer1.ForeColor = System.Drawing.Color.Black;
-            this.caixaTexPer1.Location = new System.Drawing.Point(882, 47);
-            this.caixaTexPer1.Margin = new System.Windows.Forms.Padding(4);
-            this.caixaTexPer1.Multiline = false;
-            this.caixaTexPer1.Name = "caixaTexPer1";
-            this.caixaTexPer1.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
-            this.caixaTexPer1.PasswordChar = false;
-            this.caixaTexPer1.PlaceholderColor = System.Drawing.Color.DarkGray;
-            this.caixaTexPer1.PlaceholderText = "Ex: Fusion";
-            this.caixaTexPer1.Size = new System.Drawing.Size(370, 39);
-            this.caixaTexPer1.TabIndex = 79;
-            this.caixaTexPer1.Texts = "";
-            this.caixaTexPer1.UnderlinedStyle = false;
+            this.renavam.BackColor = System.Drawing.SystemColors.Window;
+            this.renavam.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
+            this.renavam.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.renavam.BorderRadius = 5;
+            this.renavam.BorderSize = 2;
+            this.renavam.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.renavam.ForeColor = System.Drawing.Color.Black;
+            this.renavam.Location = new System.Drawing.Point(75, 47);
+            this.renavam.Margin = new System.Windows.Forms.Padding(4);
+            this.renavam.Multiline = false;
+            this.renavam.Name = "renavam";
+            this.renavam.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
+            this.renavam.PasswordChar = false;
+            this.renavam.PlaceholderColor = System.Drawing.Color.DarkGray;
+            this.renavam.PlaceholderText = "Ex: ABC1234";
+            this.renavam.Size = new System.Drawing.Size(368, 39);
+            this.renavam.TabIndex = 63;
+            this.renavam.Texts = "";
+            this.renavam.UnderlinedStyle = false;
             // 
-            // comboBoxPers1
+            // modelo
             // 
-            this.comboBoxPers1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.modelo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.comboBoxPers1.BackColor = System.Drawing.SystemColors.Window;
-            this.comboBoxPers1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
-            this.comboBoxPers1.BorderRadius = 0;
-            this.comboBoxPers1.BorderSize = 2;
-            this.comboBoxPers1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBoxPers1.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBoxPers1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.comboBoxPers1.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.comboBoxPers1.Items.AddRange(new object[] {
-            "TESTE 1",
-            "TESTE 2"});
-            this.comboBoxPers1.ListBackColor = System.Drawing.SystemColors.Window;
-            this.comboBoxPers1.ListTextColor = System.Drawing.Color.Black;
-            this.comboBoxPers1.Location = new System.Drawing.Point(478, 46);
-            this.comboBoxPers1.MinimumSize = new System.Drawing.Size(200, 30);
-            this.comboBoxPers1.Name = "comboBoxPers1";
-            this.comboBoxPers1.Padding = new System.Windows.Forms.Padding(2);
-            this.comboBoxPers1.Size = new System.Drawing.Size(370, 39);
-            this.comboBoxPers1.TabIndex = 76;
-            this.comboBoxPers1.Texts = "NONE";
-            // 
-            // comboBoxPers4
-            // 
-            this.comboBoxPers4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.comboBoxPers4.BackColor = System.Drawing.SystemColors.Window;
-            this.comboBoxPers4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
-            this.comboBoxPers4.BorderRadius = 0;
-            this.comboBoxPers4.BorderSize = 2;
-            this.comboBoxPers4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBoxPers4.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBoxPers4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.comboBoxPers4.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.comboBoxPers4.Items.AddRange(new object[] {
-            "TESTE 1",
-            "TESTE 2"});
-            this.comboBoxPers4.ListBackColor = System.Drawing.SystemColors.Window;
-            this.comboBoxPers4.ListTextColor = System.Drawing.Color.Black;
-            this.comboBoxPers4.Location = new System.Drawing.Point(74, 46);
-            this.comboBoxPers4.MinimumSize = new System.Drawing.Size(200, 30);
-            this.comboBoxPers4.Name = "comboBoxPers4";
-            this.comboBoxPers4.Padding = new System.Windows.Forms.Padding(2);
-            this.comboBoxPers4.Size = new System.Drawing.Size(370, 39);
-            this.comboBoxPers4.TabIndex = 36;
-            this.comboBoxPers4.Texts = "NONE";
+            this.modelo.BackColor = System.Drawing.SystemColors.Window;
+            this.modelo.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
+            this.modelo.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.modelo.BorderRadius = 5;
+            this.modelo.BorderSize = 2;
+            this.modelo.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.modelo.ForeColor = System.Drawing.Color.Black;
+            this.modelo.Location = new System.Drawing.Point(882, 47);
+            this.modelo.Margin = new System.Windows.Forms.Padding(4);
+            this.modelo.Multiline = false;
+            this.modelo.Name = "modelo";
+            this.modelo.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
+            this.modelo.PasswordChar = false;
+            this.modelo.PlaceholderColor = System.Drawing.Color.DarkGray;
+            this.modelo.PlaceholderText = "Ex: Fusion";
+            this.modelo.Size = new System.Drawing.Size(370, 39);
+            this.modelo.TabIndex = 79;
+            this.modelo.Texts = "";
+            this.modelo.UnderlinedStyle = false;
             // 
             // label13
             // 
@@ -236,7 +210,31 @@
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(370, 43);
             this.label15.TabIndex = 34;
-            this.label15.Text = "Categoria do Veículo:";
+            this.label15.Text = "Renavam do Veículo:";
+            // 
+            // marca
+            // 
+            this.marca.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.marca.BackColor = System.Drawing.SystemColors.Window;
+            this.marca.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
+            this.marca.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.marca.BorderRadius = 5;
+            this.marca.BorderSize = 2;
+            this.marca.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.marca.ForeColor = System.Drawing.Color.Black;
+            this.marca.Location = new System.Drawing.Point(479, 47);
+            this.marca.Margin = new System.Windows.Forms.Padding(4);
+            this.marca.Multiline = false;
+            this.marca.Name = "marca";
+            this.marca.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
+            this.marca.PasswordChar = false;
+            this.marca.PlaceholderColor = System.Drawing.Color.DarkGray;
+            this.marca.PlaceholderText = "Ex: ABC1234";
+            this.marca.Size = new System.Drawing.Size(368, 39);
+            this.marca.TabIndex = 80;
+            this.marca.Texts = "";
+            this.marca.UnderlinedStyle = false;
             // 
             // tableLayoutPanel3
             // 
@@ -251,11 +249,11 @@
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 28.50679F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.524887F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 0.6033183F));
-            this.tableLayoutPanel3.Controls.Add(this.caixaTexPer2, 1, 1);
+            this.tableLayoutPanel3.Controls.Add(this.ano, 1, 1);
             this.tableLayoutPanel3.Controls.Add(this.label1, 5, 0);
             this.tableLayoutPanel3.Controls.Add(this.label2, 3, 0);
-            this.tableLayoutPanel3.Controls.Add(this.caixaTexPer3, 3, 1);
-            this.tableLayoutPanel3.Controls.Add(this.caixaTexPer5, 5, 1);
+            this.tableLayoutPanel3.Controls.Add(this.quilometragem, 3, 1);
+            this.tableLayoutPanel3.Controls.Add(this.placa, 5, 1);
             this.tableLayoutPanel3.Controls.Add(this.label4, 1, 0);
             this.tableLayoutPanel3.Location = new System.Drawing.Point(12, 320);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
@@ -265,29 +263,29 @@
             this.tableLayoutPanel3.Size = new System.Drawing.Size(1326, 96);
             this.tableLayoutPanel3.TabIndex = 79;
             // 
-            // caixaTexPer2
+            // ano
             // 
-            this.caixaTexPer2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.ano.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.caixaTexPer2.BackColor = System.Drawing.SystemColors.Window;
-            this.caixaTexPer2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
-            this.caixaTexPer2.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.caixaTexPer2.BorderRadius = 5;
-            this.caixaTexPer2.BorderSize = 2;
-            this.caixaTexPer2.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.caixaTexPer2.ForeColor = System.Drawing.Color.Black;
-            this.caixaTexPer2.Location = new System.Drawing.Point(75, 47);
-            this.caixaTexPer2.Margin = new System.Windows.Forms.Padding(4);
-            this.caixaTexPer2.Multiline = false;
-            this.caixaTexPer2.Name = "caixaTexPer2";
-            this.caixaTexPer2.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
-            this.caixaTexPer2.PasswordChar = false;
-            this.caixaTexPer2.PlaceholderColor = System.Drawing.Color.DarkGray;
-            this.caixaTexPer2.PlaceholderText = "Ex: 2019";
-            this.caixaTexPer2.Size = new System.Drawing.Size(370, 39);
-            this.caixaTexPer2.TabIndex = 62;
-            this.caixaTexPer2.Texts = "";
-            this.caixaTexPer2.UnderlinedStyle = false;
+            this.ano.BackColor = System.Drawing.SystemColors.Window;
+            this.ano.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
+            this.ano.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.ano.BorderRadius = 5;
+            this.ano.BorderSize = 2;
+            this.ano.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ano.ForeColor = System.Drawing.Color.Black;
+            this.ano.Location = new System.Drawing.Point(75, 47);
+            this.ano.Margin = new System.Windows.Forms.Padding(4);
+            this.ano.Multiline = false;
+            this.ano.Name = "ano";
+            this.ano.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
+            this.ano.PasswordChar = false;
+            this.ano.PlaceholderColor = System.Drawing.Color.DarkGray;
+            this.ano.PlaceholderText = "Ex: 2019";
+            this.ano.Size = new System.Drawing.Size(370, 39);
+            this.ano.TabIndex = 62;
+            this.ano.Texts = "";
+            this.ano.UnderlinedStyle = false;
             // 
             // label1
             // 
@@ -311,53 +309,53 @@
             this.label2.TabIndex = 35;
             this.label2.Text = "Quilometragem:";
             // 
-            // caixaTexPer3
+            // quilometragem
             // 
-            this.caixaTexPer3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.quilometragem.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.caixaTexPer3.BackColor = System.Drawing.SystemColors.Window;
-            this.caixaTexPer3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
-            this.caixaTexPer3.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.caixaTexPer3.BorderRadius = 5;
-            this.caixaTexPer3.BorderSize = 2;
-            this.caixaTexPer3.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.caixaTexPer3.ForeColor = System.Drawing.Color.Black;
-            this.caixaTexPer3.Location = new System.Drawing.Point(478, 47);
-            this.caixaTexPer3.Margin = new System.Windows.Forms.Padding(4);
-            this.caixaTexPer3.Multiline = false;
-            this.caixaTexPer3.Name = "caixaTexPer3";
-            this.caixaTexPer3.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
-            this.caixaTexPer3.PasswordChar = false;
-            this.caixaTexPer3.PlaceholderColor = System.Drawing.Color.DarkGray;
-            this.caixaTexPer3.PlaceholderText = "Ex: 125000";
-            this.caixaTexPer3.Size = new System.Drawing.Size(370, 39);
-            this.caixaTexPer3.TabIndex = 35;
-            this.caixaTexPer3.Texts = "";
-            this.caixaTexPer3.UnderlinedStyle = false;
+            this.quilometragem.BackColor = System.Drawing.SystemColors.Window;
+            this.quilometragem.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
+            this.quilometragem.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.quilometragem.BorderRadius = 5;
+            this.quilometragem.BorderSize = 2;
+            this.quilometragem.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.quilometragem.ForeColor = System.Drawing.Color.Black;
+            this.quilometragem.Location = new System.Drawing.Point(478, 47);
+            this.quilometragem.Margin = new System.Windows.Forms.Padding(4);
+            this.quilometragem.Multiline = false;
+            this.quilometragem.Name = "quilometragem";
+            this.quilometragem.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
+            this.quilometragem.PasswordChar = false;
+            this.quilometragem.PlaceholderColor = System.Drawing.Color.DarkGray;
+            this.quilometragem.PlaceholderText = "Ex: 125000";
+            this.quilometragem.Size = new System.Drawing.Size(370, 39);
+            this.quilometragem.TabIndex = 35;
+            this.quilometragem.Texts = "";
+            this.quilometragem.UnderlinedStyle = false;
             // 
-            // caixaTexPer5
+            // placa
             // 
-            this.caixaTexPer5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.placa.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.caixaTexPer5.BackColor = System.Drawing.SystemColors.Window;
-            this.caixaTexPer5.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
-            this.caixaTexPer5.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.caixaTexPer5.BorderRadius = 5;
-            this.caixaTexPer5.BorderSize = 2;
-            this.caixaTexPer5.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.caixaTexPer5.ForeColor = System.Drawing.Color.Black;
-            this.caixaTexPer5.Location = new System.Drawing.Point(882, 47);
-            this.caixaTexPer5.Margin = new System.Windows.Forms.Padding(4);
-            this.caixaTexPer5.Multiline = false;
-            this.caixaTexPer5.Name = "caixaTexPer5";
-            this.caixaTexPer5.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
-            this.caixaTexPer5.PasswordChar = false;
-            this.caixaTexPer5.PlaceholderColor = System.Drawing.Color.DarkGray;
-            this.caixaTexPer5.PlaceholderText = "Ex: ABC1234";
-            this.caixaTexPer5.Size = new System.Drawing.Size(370, 39);
-            this.caixaTexPer5.TabIndex = 35;
-            this.caixaTexPer5.Texts = "";
-            this.caixaTexPer5.UnderlinedStyle = false;
+            this.placa.BackColor = System.Drawing.SystemColors.Window;
+            this.placa.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
+            this.placa.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.placa.BorderRadius = 5;
+            this.placa.BorderSize = 2;
+            this.placa.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.placa.ForeColor = System.Drawing.Color.Black;
+            this.placa.Location = new System.Drawing.Point(882, 47);
+            this.placa.Margin = new System.Windows.Forms.Padding(4);
+            this.placa.Multiline = false;
+            this.placa.Name = "placa";
+            this.placa.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
+            this.placa.PasswordChar = false;
+            this.placa.PlaceholderColor = System.Drawing.Color.DarkGray;
+            this.placa.PlaceholderText = "Ex: ABC1234";
+            this.placa.Size = new System.Drawing.Size(370, 39);
+            this.placa.TabIndex = 35;
+            this.placa.Texts = "";
+            this.placa.UnderlinedStyle = false;
             // 
             // label4
             // 
@@ -411,6 +409,7 @@
             this.botaoPers4.Text = "CONFIRMAR CADASTRO";
             this.botaoPers4.TextColor = System.Drawing.Color.White;
             this.botaoPers4.UseVisualStyleBackColor = false;
+            this.botaoPers4.Click += new System.EventHandler(this.botaoPers4_Click);
             // 
             // tableLayoutPanel4
             // 
@@ -461,10 +460,10 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 28.35596F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 19.68326F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 0.6037736F));
-            this.tableLayoutPanel2.Controls.Add(this.comboBoxPers3, 3, 1);
             this.tableLayoutPanel2.Controls.Add(this.label16, 3, 0);
             this.tableLayoutPanel2.Controls.Add(this.label17, 1, 0);
-            this.tableLayoutPanel2.Controls.Add(this.caixaTexPer11, 1, 1);
+            this.tableLayoutPanel2.Controls.Add(this.diaria, 1, 1);
+            this.tableLayoutPanel2.Controls.Add(this.cor, 3, 1);
             this.tableLayoutPanel2.Location = new System.Drawing.Point(12, 446);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 2;
@@ -483,7 +482,7 @@
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(370, 43);
             this.label16.TabIndex = 32;
-            this.label16.Text = "Disponibilidade:";
+            this.label16.Text = "Cor do Veículo:";
             // 
             // label17
             // 
@@ -496,54 +495,53 @@
             this.label17.TabIndex = 31;
             this.label17.Text = "Preço p/dia do Veículo:";
             // 
-            // caixaTexPer11
+            // diaria
             // 
-            this.caixaTexPer11.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.diaria.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.caixaTexPer11.BackColor = System.Drawing.SystemColors.Window;
-            this.caixaTexPer11.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
-            this.caixaTexPer11.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.caixaTexPer11.BorderRadius = 5;
-            this.caixaTexPer11.BorderSize = 2;
-            this.caixaTexPer11.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.caixaTexPer11.ForeColor = System.Drawing.Color.Black;
-            this.caixaTexPer11.Location = new System.Drawing.Point(272, 47);
-            this.caixaTexPer11.Margin = new System.Windows.Forms.Padding(4);
-            this.caixaTexPer11.Multiline = false;
-            this.caixaTexPer11.Name = "caixaTexPer11";
-            this.caixaTexPer11.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
-            this.caixaTexPer11.PasswordChar = false;
-            this.caixaTexPer11.PlaceholderColor = System.Drawing.Color.DarkGray;
-            this.caixaTexPer11.PlaceholderText = "Ex: R$ 350,00";
-            this.caixaTexPer11.Size = new System.Drawing.Size(370, 39);
-            this.caixaTexPer11.TabIndex = 29;
-            this.caixaTexPer11.Texts = "";
-            this.caixaTexPer11.UnderlinedStyle = false;
+            this.diaria.BackColor = System.Drawing.SystemColors.Window;
+            this.diaria.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
+            this.diaria.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.diaria.BorderRadius = 5;
+            this.diaria.BorderSize = 2;
+            this.diaria.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.diaria.ForeColor = System.Drawing.Color.Black;
+            this.diaria.Location = new System.Drawing.Point(272, 47);
+            this.diaria.Margin = new System.Windows.Forms.Padding(4);
+            this.diaria.Multiline = false;
+            this.diaria.Name = "diaria";
+            this.diaria.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
+            this.diaria.PasswordChar = false;
+            this.diaria.PlaceholderColor = System.Drawing.Color.DarkGray;
+            this.diaria.PlaceholderText = "Ex: R$ 350,00";
+            this.diaria.Size = new System.Drawing.Size(370, 39);
+            this.diaria.TabIndex = 29;
+            this.diaria.Texts = "";
+            this.diaria.UnderlinedStyle = false;
             // 
-            // comboBoxPers3
+            // cor
             // 
-            this.comboBoxPers3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.cor.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.comboBoxPers3.BackColor = System.Drawing.SystemColors.Window;
-            this.comboBoxPers3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
-            this.comboBoxPers3.BorderRadius = 0;
-            this.comboBoxPers3.BorderSize = 2;
-            this.comboBoxPers3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBoxPers3.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBoxPers3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.comboBoxPers3.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.comboBoxPers3.Items.AddRange(new object[] {
-            "TESTE 1",
-            "TESTE 2"});
-            this.comboBoxPers3.ListBackColor = System.Drawing.SystemColors.Window;
-            this.comboBoxPers3.ListTextColor = System.Drawing.Color.Black;
-            this.comboBoxPers3.Location = new System.Drawing.Point(683, 46);
-            this.comboBoxPers3.MinimumSize = new System.Drawing.Size(200, 30);
-            this.comboBoxPers3.Name = "comboBoxPers3";
-            this.comboBoxPers3.Padding = new System.Windows.Forms.Padding(2);
-            this.comboBoxPers3.Size = new System.Drawing.Size(370, 39);
-            this.comboBoxPers3.TabIndex = 83;
-            this.comboBoxPers3.Texts = "NONE";
+            this.cor.BackColor = System.Drawing.SystemColors.Window;
+            this.cor.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
+            this.cor.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.cor.BorderRadius = 5;
+            this.cor.BorderSize = 2;
+            this.cor.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cor.ForeColor = System.Drawing.Color.Black;
+            this.cor.Location = new System.Drawing.Point(684, 47);
+            this.cor.Margin = new System.Windows.Forms.Padding(4);
+            this.cor.Multiline = false;
+            this.cor.Name = "cor";
+            this.cor.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
+            this.cor.PasswordChar = false;
+            this.cor.PlaceholderColor = System.Drawing.Color.DarkGray;
+            this.cor.PlaceholderText = "Ex: ABC1234";
+            this.cor.Size = new System.Drawing.Size(368, 39);
+            this.cor.TabIndex = 36;
+            this.cor.Texts = "";
+            this.cor.UnderlinedStyle = false;
             // 
             // Form13
             // 
@@ -580,18 +578,16 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel5;
-        private Controles_Personalizados.caixaTexPer caixaTexPer1;
-        private Controles_Personalizados.ComboBoxPers comboBoxPers1;
-        private Controles_Personalizados.ComboBoxPers comboBoxPers4;
+        private Controles_Personalizados.caixaTexPer modelo;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
-        private Controles_Personalizados.caixaTexPer caixaTexPer2;
+        private Controles_Personalizados.caixaTexPer ano;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private Controles_Personalizados.caixaTexPer caixaTexPer3;
-        private Controles_Personalizados.caixaTexPer caixaTexPer5;
+        private Controles_Personalizados.caixaTexPer quilometragem;
+        private Controles_Personalizados.caixaTexPer placa;
         private System.Windows.Forms.Label label4;
         private Controles_Personalizados.botaoPers botaoPers3;
         private Controles_Personalizados.botaoPers botaoPers4;
@@ -599,9 +595,11 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
-        private Controles_Personalizados.ComboBoxPers comboBoxPers3;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
-        private Controles_Personalizados.caixaTexPer caixaTexPer11;
+        private Controles_Personalizados.caixaTexPer diaria;
+        private Controles_Personalizados.caixaTexPer renavam;
+        private Controles_Personalizados.caixaTexPer marca;
+        private Controles_Personalizados.caixaTexPer cor;
     }
 }

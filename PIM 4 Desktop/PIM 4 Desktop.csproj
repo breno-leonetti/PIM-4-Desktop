@@ -52,17 +52,37 @@
     <Compile Include="2 Console Menu Principal %28Tela Inicial Após Login%29.Designer.cs">
       <DependentUpon>2 Console Menu Principal %28Tela Inicial Após Login%29.cs</DependentUpon>
     </Compile>
-    <Compile Include="Back\Banco\Autenticar.cs" />
-    <Compile Include="Back\Banco\CadastrarCliente.cs" />
-    <Compile Include="Back\Banco\CheckIn.cs" />
-    <Compile Include="Back\Banco\CheckOut.cs" />
-    <Compile Include="Back\Banco\ConsultarReservaPeloId.cs" />
-    <Compile Include="Back\Banco\DeletarCliente.cs" />
-    <Compile Include="Back\Banco\RecuperarVeiculoAlugado.cs" />
+    <Compile Include="Back\Banco\Cadastro\CadastrarFuncionario.cs" />
+    <Compile Include="Back\Banco\Cadastro\CadastrarVeiculo.cs" />
+    <Compile Include="Back\Banco\Consulta\Autenticar.cs" />
+    <Compile Include="Back\Banco\Cadastro\CadastrarCliente.cs" />
+    <Compile Include="Back\Banco\Cadastro\CheckIn.cs" />
+    <Compile Include="Back\Banco\Cadastro\CheckOut.cs" />
+    <Compile Include="Back\Banco\Consulta\ConsultarReservaPeloId.cs" />
+    <Compile Include="Back\Banco\Exclusao\DeletarFuncionario .cs" />
+    <Compile Include="Back\Banco\Exclusao\DeletarCliente.cs" />
+    <Compile Include="Back\Banco\Consulta\ListaFuncionarios.cs" />
+    <Compile Include="Back\Banco\Consulta\RecuperarVeiculoAlugado.cs" />
+    <Compile Include="Back\Banco\Exclusao\DeletarVeiculo.cs" />
     <Compile Include="Back\Banco\TarefaSQL.cs" />
     <Compile Include="Back\Gerenciador.cs" />
     <Compile Include="Back\Modelos\CarroAlugado.cs" />
     <Compile Include="Back\Modelos\UsuarioLogado.cs" />
+    <Compile Include="BD_AlucarDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BD_AlucarDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BD_AlucarDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BD_AlucarDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BD_AlucarDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BD_AlucarDataSet2.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Classes\Cliente.cs" />
     <Compile Include="Classes\Endereco.cs" />
     <Compile Include="Classes\Funcionario.cs" />
@@ -262,6 +282,39 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="BD_AlucarDataSet.xsc">
+      <DependentUpon>BD_AlucarDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BD_AlucarDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BD_AlucarDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BD_AlucarDataSet.xss">
+      <DependentUpon>BD_AlucarDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BD_AlucarDataSet1.xsc">
+      <DependentUpon>BD_AlucarDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="BD_AlucarDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BD_AlucarDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BD_AlucarDataSet1.xss">
+      <DependentUpon>BD_AlucarDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="BD_AlucarDataSet2.xsc">
+      <DependentUpon>BD_AlucarDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="BD_AlucarDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BD_AlucarDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BD_AlucarDataSet2.xss">
+      <DependentUpon>BD_AlucarDataSet2.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

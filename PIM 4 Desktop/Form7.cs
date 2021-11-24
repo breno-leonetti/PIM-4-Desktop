@@ -29,7 +29,7 @@ namespace PIM_4_Desktop
                 this.Hide();
                 new Form8().Show();
             }
-            catch(Exception ex)
+            catch(Exception)
             {
                 MessageBox.Show("Algum dado inserido não é válido!");
             }

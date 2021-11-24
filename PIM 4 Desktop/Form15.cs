@@ -31,7 +31,14 @@ namespace PIM_4_Desktop
         private void botaoPers2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            new Form2().Show();
+            new Form16().Show();
+        }
+
+        private void Form15_Load(object sender, EventArgs e)
+        {
+            // TODO: esta linha de código carrega dados na tabela 'bD_AlucarDataSet1.Clientes'. Você pode movê-la ou removê-la conforme necessário.
+            this.clientesTableAdapter.Fill(this.bD_AlucarDataSet1.Clientes);
+
         }
     }
 }

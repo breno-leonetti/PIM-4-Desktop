@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 namespace PIM_4_Desktop.Classes
     
 {
-    class Funcionario : Pessoa
+    public class Funcionario : Pessoa
     {
-        protected string RG;
-        protected string CPF;
-        protected int Matricula;
-        protected float SalarioBase;
-        protected string Cargo;
-        protected Endereco Endereco;
+        public string RG;
+        public string CPF;
+        public int Matricula;
+        public decimal SalarioBase;
+        public string Cargo;
+        public string Celular;
         // *****conferir cargo como sera feito*******
 
 
@@ -32,15 +32,15 @@ namespace PIM_4_Desktop.Classes
         /// <param name="salariobase"></param>
         /// <param name="endereco">deve ser chamado o construtor de Endereco</param>
         /// 
-        public Funcionario(string nome, string email, string senha, string telefone, DateTime dataNascimento, string rg, string cpf, int matricula, float salariobase, Endereco endereco, string cargo) 
+        public Funcionario(string nome, string email, string senha, string celular, string telefone, DateTime dataNascimento, string rg, string cpf, int matricula, decimal salariobase,  string cargo) 
             : base(nome, email, senha, telefone, dataNascimento)
         {
             RG = rg;
             CPF = cpf;
             Matricula = matricula;
             SalarioBase = salariobase;
-            Endereco = endereco;
             Cargo = cargo;
+            Celular = celular;
         }
     }
 }

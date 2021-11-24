@@ -35,15 +35,12 @@
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.btnFuncionários = new PIM_4_Desktop.Controles_Personalizados.botaoPers();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.botaoPers7 = new PIM_4_Desktop.Controles_Personalizados.botaoPers();
             this.botaoPers3 = new PIM_4_Desktop.Controles_Personalizados.botaoPers();
-            this.botaoPers2 = new PIM_4_Desktop.Controles_Personalizados.botaoPers();
             this.botaoPers4 = new PIM_4_Desktop.Controles_Personalizados.botaoPers();
             this.label3 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel3.SuspendLayout();
-            this.tableLayoutPanel4.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -134,7 +131,6 @@
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 28.35596F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 35.14329F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 0.6033183F));
-            this.tableLayoutPanel4.Controls.Add(this.btnFuncionários, 1, 0);
             this.tableLayoutPanel4.Location = new System.Drawing.Point(12, 415);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             this.tableLayoutPanel4.RowCount = 1;
@@ -155,13 +151,14 @@
             this.btnFuncionários.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFuncionários.Font = new System.Drawing.Font("Arial Black", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFuncionários.ForeColor = System.Drawing.Color.White;
-            this.btnFuncionários.Location = new System.Drawing.Point(478, 3);
+            this.btnFuncionários.Location = new System.Drawing.Point(271, 85);
             this.btnFuncionários.Name = "btnFuncionários";
             this.btnFuncionários.Size = new System.Drawing.Size(370, 50);
             this.btnFuncionários.TabIndex = 17;
             this.btnFuncionários.Text = "FUNCIONÁRIOS";
             this.btnFuncionários.TextColor = System.Drawing.Color.White;
             this.btnFuncionários.UseVisualStyleBackColor = false;
+            this.btnFuncionários.Click += new System.EventHandler(this.btnFuncionários_Click);
             // 
             // tableLayoutPanel2
             // 
@@ -174,9 +171,8 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 28.35596F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 19.60784F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 0.6033183F));
-            this.tableLayoutPanel2.Controls.Add(this.botaoPers7, 1, 2);
+            this.tableLayoutPanel2.Controls.Add(this.btnFuncionários, 1, 2);
             this.tableLayoutPanel2.Controls.Add(this.botaoPers3, 1, 0);
-            this.tableLayoutPanel2.Controls.Add(this.botaoPers2, 3, 2);
             this.tableLayoutPanel2.Controls.Add(this.botaoPers4, 3, 0);
             this.tableLayoutPanel2.Location = new System.Drawing.Point(12, 249);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
@@ -186,27 +182,6 @@
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 58F));
             this.tableLayoutPanel2.Size = new System.Drawing.Size(1326, 141);
             this.tableLayoutPanel2.TabIndex = 84;
-            // 
-            // botaoPers7
-            // 
-            this.botaoPers7.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.botaoPers7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(172)))), ((int)(((byte)(255)))));
-            this.botaoPers7.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(172)))), ((int)(((byte)(255)))));
-            this.botaoPers7.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.botaoPers7.BorderRadius = 5;
-            this.botaoPers7.BorderSize = 0;
-            this.botaoPers7.FlatAppearance.BorderSize = 0;
-            this.botaoPers7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.botaoPers7.Font = new System.Drawing.Font("Arial Black", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.botaoPers7.ForeColor = System.Drawing.Color.White;
-            this.botaoPers7.Location = new System.Drawing.Point(271, 85);
-            this.botaoPers7.Name = "botaoPers7";
-            this.botaoPers7.Size = new System.Drawing.Size(370, 50);
-            this.botaoPers7.TabIndex = 36;
-            this.botaoPers7.Text = "CLIENTE PESSOA JURÍDICA";
-            this.botaoPers7.TextColor = System.Drawing.Color.White;
-            this.botaoPers7.UseVisualStyleBackColor = false;
             // 
             // botaoPers3
             // 
@@ -230,27 +205,6 @@
             this.botaoPers3.UseVisualStyleBackColor = false;
             this.botaoPers3.Click += new System.EventHandler(this.botaoPers3_Click);
             // 
-            // botaoPers2
-            // 
-            this.botaoPers2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.botaoPers2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(172)))), ((int)(((byte)(255)))));
-            this.botaoPers2.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(172)))), ((int)(((byte)(255)))));
-            this.botaoPers2.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.botaoPers2.BorderRadius = 5;
-            this.botaoPers2.BorderSize = 0;
-            this.botaoPers2.FlatAppearance.BorderSize = 0;
-            this.botaoPers2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.botaoPers2.Font = new System.Drawing.Font("Arial Black", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.botaoPers2.ForeColor = System.Drawing.Color.White;
-            this.botaoPers2.Location = new System.Drawing.Point(684, 85);
-            this.botaoPers2.Name = "botaoPers2";
-            this.botaoPers2.Size = new System.Drawing.Size(370, 50);
-            this.botaoPers2.TabIndex = 19;
-            this.botaoPers2.Text = "CUSTOS / GASTOS";
-            this.botaoPers2.TextColor = System.Drawing.Color.White;
-            this.botaoPers2.UseVisualStyleBackColor = false;
-            // 
             // botaoPers4
             // 
             this.botaoPers4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -271,6 +225,7 @@
             this.botaoPers4.Text = "VEÍCULO";
             this.botaoPers4.TextColor = System.Drawing.Color.White;
             this.botaoPers4.UseVisualStyleBackColor = false;
+            this.botaoPers4.Click += new System.EventHandler(this.botaoPers4_Click);
             // 
             // label3
             // 
@@ -327,7 +282,6 @@
             this.Name = "Form16";
             this.Text = "Form16";
             this.tableLayoutPanel3.ResumeLayout(false);
-            this.tableLayoutPanel4.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -345,9 +299,7 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
         private Controles_Personalizados.botaoPers btnFuncionários;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
-        private Controles_Personalizados.botaoPers botaoPers7;
         private Controles_Personalizados.botaoPers botaoPers3;
-        private Controles_Personalizados.botaoPers botaoPers2;
         private Controles_Personalizados.botaoPers botaoPers4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;

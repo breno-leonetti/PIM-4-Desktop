@@ -26,13 +26,25 @@ namespace PIM_4_Desktop
         private void botaoPers3_Click(object sender, EventArgs e)
         {
             this.Hide();
-            new Form7().Show();
+            new Form15().Show();
         }
 
         private void botaoPers6_Click(object sender, EventArgs e)
         {
             this.Hide();
             new _2_Console_Menu_Principal__Tela_Inicial_Após_Login_().Show();
+        }
+
+        private void btnFuncionários_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new Form18().Show();
+        }
+
+        private void botaoPers4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new Form14().Show();
         }
     }
 }

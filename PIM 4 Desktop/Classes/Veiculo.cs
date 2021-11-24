@@ -14,7 +14,13 @@ namespace PIM_4_Desktop.Classes
         public int ID_carro;
         public int Ano;
         public decimal Quilometragem;
-        public string Categoria; // definir como funcionara!!!
+        public string Categoria;
+        public string Renavam;
+
+        public decimal Diaria;
+
+        public string Cor;
+
         public bool Disponibilidade;
 
         /// <summary>
@@ -36,6 +42,18 @@ namespace PIM_4_Desktop.Classes
             Categoria = categoria;
             Disponibilidade = disponibilidade;
             ID_carro = idCarro;
+
+        }
+        public Veiculo(string renavam, string modelo, string placa, string marca, int ano, decimal quilometragem, string cor, decimal diaria)
+        {
+            Modelo = modelo;
+            Placa = placa;
+            Marca = marca;
+            Ano = ano;
+            Quilometragem = quilometragem;
+            Cor = cor;
+            Diaria = diaria;
+            Renavam = renavam;
 
         }
     }

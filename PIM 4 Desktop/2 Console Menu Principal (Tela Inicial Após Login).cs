@@ -46,7 +46,7 @@ namespace PIM_4_Desktop
 
         private void botaoPers6_Click(object sender, EventArgs e)
         {
-            new Form16().Show();
+            new Form2().Show();
             this.Hide();
         }
 

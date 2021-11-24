@@ -53,11 +53,14 @@
       <DependentUpon>2 Console Menu Principal %28Tela Inicial Após Login%29.cs</DependentUpon>
     </Compile>
     <Compile Include="Back\Banco\Cadastro\CadastrarFuncionario.cs" />
+    <Compile Include="Back\Banco\Cadastro\CadastrarReserva.cs" />
     <Compile Include="Back\Banco\Cadastro\CadastrarVeiculo.cs" />
     <Compile Include="Back\Banco\Consulta\Autenticar.cs" />
     <Compile Include="Back\Banco\Cadastro\CadastrarCliente.cs" />
     <Compile Include="Back\Banco\Cadastro\CheckIn.cs" />
     <Compile Include="Back\Banco\Cadastro\CheckOut.cs" />
+    <Compile Include="Back\Banco\Consulta\ConsultarClientePeloCpf.cs" />
+    <Compile Include="Back\Banco\Consulta\ConsultarDiariaVeiculo .cs" />
     <Compile Include="Back\Banco\Consulta\ConsultarReservaPeloId.cs" />
     <Compile Include="Back\Banco\Exclusao\DeletarFuncionario .cs" />
     <Compile Include="Back\Banco\Exclusao\DeletarCliente.cs" />

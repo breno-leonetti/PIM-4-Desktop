@@ -32,10 +32,10 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.btnFuncionários = new PIM_4_Desktop.Controles_Personalizados.botaoPers();
             this.botaoPers3 = new PIM_4_Desktop.Controles_Personalizados.botaoPers();
             this.botaoPers4 = new PIM_4_Desktop.Controles_Personalizados.botaoPers();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
-            this.btnFuncionários = new PIM_4_Desktop.Controles_Personalizados.botaoPers();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.botaoPers5 = new PIM_4_Desktop.Controles_Personalizados.botaoPers();
             this.botaoPers6 = new PIM_4_Desktop.Controles_Personalizados.botaoPers();
@@ -110,6 +110,28 @@
             this.tableLayoutPanel2.Size = new System.Drawing.Size(1326, 141);
             this.tableLayoutPanel2.TabIndex = 26;
             // 
+            // btnFuncionários
+            // 
+            this.btnFuncionários.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnFuncionários.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(172)))), ((int)(((byte)(255)))));
+            this.btnFuncionários.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(172)))), ((int)(((byte)(255)))));
+            this.btnFuncionários.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btnFuncionários.BorderRadius = 5;
+            this.btnFuncionários.BorderSize = 0;
+            this.btnFuncionários.FlatAppearance.BorderSize = 0;
+            this.btnFuncionários.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFuncionários.Font = new System.Drawing.Font("Arial Black", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFuncionários.ForeColor = System.Drawing.Color.White;
+            this.btnFuncionários.Location = new System.Drawing.Point(271, 85);
+            this.btnFuncionários.Name = "btnFuncionários";
+            this.btnFuncionários.Size = new System.Drawing.Size(370, 50);
+            this.btnFuncionários.TabIndex = 17;
+            this.btnFuncionários.Text = "FUNCIONÁRIOS";
+            this.btnFuncionários.TextColor = System.Drawing.Color.White;
+            this.btnFuncionários.UseVisualStyleBackColor = false;
+            this.btnFuncionários.Click += new System.EventHandler(this.btnFuncionários_Click);
+            // 
             // botaoPers3
             // 
             this.botaoPers3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -169,28 +191,6 @@
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel4.Size = new System.Drawing.Size(1326, 60);
             this.tableLayoutPanel4.TabIndex = 34;
-            // 
-            // btnFuncionários
-            // 
-            this.btnFuncionários.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnFuncionários.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(172)))), ((int)(((byte)(255)))));
-            this.btnFuncionários.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(172)))), ((int)(((byte)(255)))));
-            this.btnFuncionários.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.btnFuncionários.BorderRadius = 5;
-            this.btnFuncionários.BorderSize = 0;
-            this.btnFuncionários.FlatAppearance.BorderSize = 0;
-            this.btnFuncionários.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFuncionários.Font = new System.Drawing.Font("Arial Black", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFuncionários.ForeColor = System.Drawing.Color.White;
-            this.btnFuncionários.Location = new System.Drawing.Point(271, 85);
-            this.btnFuncionários.Name = "btnFuncionários";
-            this.btnFuncionários.Size = new System.Drawing.Size(370, 50);
-            this.btnFuncionários.TabIndex = 17;
-            this.btnFuncionários.Text = "FUNCIONÁRIOS";
-            this.btnFuncionários.TextColor = System.Drawing.Color.White;
-            this.btnFuncionários.UseVisualStyleBackColor = false;
-            this.btnFuncionários.Click += new System.EventHandler(this.btnFuncionários_Click);
             // 
             // tableLayoutPanel3
             // 
@@ -254,6 +254,7 @@
             this.botaoPers6.Text = "VOLTAR";
             this.botaoPers6.TextColor = System.Drawing.Color.White;
             this.botaoPers6.UseVisualStyleBackColor = false;
+            this.botaoPers6.Click += new System.EventHandler(this.botaoPers6_Click);
             // 
             // label5
             // 

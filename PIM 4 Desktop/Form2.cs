@@ -39,5 +39,11 @@ namespace PIM_4_Desktop
             new Form17().Show();
             this.Hide();
         }
+
+        private void botaoPers6_Click(object sender, EventArgs e)
+        {
+            new _2_Console_Menu_Principal__Tela_Inicial_Após_Login_().Show();
+            this.Hide();
+        }
     }
 }

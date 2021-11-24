@@ -20,7 +20,7 @@ namespace PIM_4_Desktop.Back.Banco
             FormaPagamento = formaPagamento;
         }
         private const string comandoSQL = "DELETE FROM Checkin WHERE id_reserva = @IdReserva";
-        private const string comandoSQL2 = "INSERT INTO CheckOut(id_cliente, id_funcionario, id_veiculo, " +
+        private const string comandoSQL2 = "INSERT INTO Checkout(id_cliente, id_funcionario, id_veiculo, " +
             "data_checkout, valor_diaria, quantidade_diastotal, pagamento_total, formapagamento) " +
             "VALUES " +
             "(@IdCliente, @IdFuncionario, @IdVeiculo, @DataCheckout, @ValorDiaria, @QuantidadeDiasTotal, " +

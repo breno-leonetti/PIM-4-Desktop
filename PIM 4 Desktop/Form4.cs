@@ -16,5 +16,11 @@ namespace PIM_4_Desktop
         {
             InitializeComponent();
         }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            new _2_Console_Menu_Principal__Tela_Inicial_Após_Login_().Show();
+            this.Hide();
+        }
     }
 }

@@ -156,6 +156,7 @@
             this.botaoPers3.Text = "VOLTAR";
             this.botaoPers3.TextColor = System.Drawing.Color.White;
             this.botaoPers3.UseVisualStyleBackColor = false;
+            this.botaoPers3.Click += new System.EventHandler(this.botaoPers3_Click);
             // 
             // caixaTexPer1
             // 
@@ -214,6 +215,7 @@
             this.caixaTexPer2.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
             this.caixaTexPer2.BorderRadius = 5;
             this.caixaTexPer2.BorderSize = 2;
+            this.caixaTexPer2.Enabled = false;
             this.caixaTexPer2.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.caixaTexPer2.ForeColor = System.Drawing.Color.Black;
             this.caixaTexPer2.Location = new System.Drawing.Point(683, 47);
@@ -284,6 +286,7 @@
             this.caixaTexPer3.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
             this.caixaTexPer3.BorderRadius = 5;
             this.caixaTexPer3.BorderSize = 2;
+            this.caixaTexPer3.Enabled = false;
             this.caixaTexPer3.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.caixaTexPer3.ForeColor = System.Drawing.Color.Black;
             this.caixaTexPer3.Location = new System.Drawing.Point(683, 47);
@@ -332,6 +335,7 @@
             this.caixaTexPer4.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
             this.caixaTexPer4.BorderRadius = 5;
             this.caixaTexPer4.BorderSize = 2;
+            this.caixaTexPer4.Enabled = false;
             this.caixaTexPer4.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.caixaTexPer4.ForeColor = System.Drawing.Color.Black;
             this.caixaTexPer4.Location = new System.Drawing.Point(272, 47);

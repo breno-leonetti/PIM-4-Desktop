@@ -183,6 +183,7 @@
             this.botaoPers3.Text = "ALUGAR/RESERVAR";
             this.botaoPers3.TextColor = System.Drawing.Color.White;
             this.botaoPers3.UseVisualStyleBackColor = false;
+            this.botaoPers3.Click += new System.EventHandler(this.botaoPers3_Click);
             // 
             // botaoPers1
             // 

@@ -25,13 +25,17 @@ namespace PIM_4_Desktop
         {
             if (new CheckIn().Executar(caixaTexPer1.Texts))
             {
-                //Abrir um dos 20 FormX que corresponde ao sucesso
-                //new FormX().Show();
-                //this.Hide();
-                MessageBox.Show("CheckIn efetuado com sucesso.");
+                new Form4().Show();
+                this.Hide();
                 return;
             }
             MessageBox.Show("Ocorreu um erro. Por favor tente novamento mais tarde.");
+        }
+
+        private void botaoPers3_Click(object sender, EventArgs e)
+        {
+            new _2_Console_Menu_Principal__Tela_Inicial_Após_Login_().Show();
+            this.Hide();
         }
     }
 }

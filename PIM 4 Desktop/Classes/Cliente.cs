@@ -36,6 +36,8 @@ namespace PIM_4_Desktop.Classes
 
         public Cliente(string nome, string email, int idCliente) : base(nome, email)
         {
+            Nome = nome;
+            Email = email;
             IdCliente = idCliente;
         }
 

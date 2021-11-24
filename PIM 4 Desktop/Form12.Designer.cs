@@ -37,7 +37,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
+            this.idReserva = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.tableLayoutPanel4.SuspendLayout();
@@ -82,6 +82,7 @@
             this.btnVoltar.Text = "VOLTAR AO MENU PRINCIPAL";
             this.btnVoltar.TextColor = System.Drawing.Color.White;
             this.btnVoltar.UseVisualStyleBackColor = false;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // label1
             // 
@@ -174,17 +175,17 @@
             this.label5.Text = "ID da Reserva:";
             this.label5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // label6
+            // idReserva
             // 
-            this.label6.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Arial", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(556, 485);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(218, 45);
-            this.label6.TabIndex = 46;
-            this.label6.Text = "123456789";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.idReserva.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.idReserva.AutoSize = true;
+            this.idReserva.Font = new System.Drawing.Font("Arial", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.idReserva.Location = new System.Drawing.Point(556, 485);
+            this.idReserva.Name = "idReserva";
+            this.idReserva.Size = new System.Drawing.Size(218, 45);
+            this.idReserva.TabIndex = 46;
+            this.idReserva.Text = "123456789";
+            this.idReserva.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label7
             // 
@@ -220,7 +221,7 @@
             this.ClientSize = new System.Drawing.Size(1350, 729);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
+            this.Controls.Add(this.idReserva);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
@@ -230,6 +231,7 @@
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "Form12";
             this.Text = "Form12";
+            this.Load += new System.EventHandler(this.Form12_Load);
             this.tableLayoutPanel4.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -249,7 +251,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label idReserva;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
     }

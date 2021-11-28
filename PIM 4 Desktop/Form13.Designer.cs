@@ -48,8 +48,6 @@
             this.botaoPers3 = new PIM_4_Desktop.Controles_Personalizados.botaoPers();
             this.botaoPers4 = new PIM_4_Desktop.Controles_Personalizados.botaoPers();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
@@ -431,24 +429,6 @@
             this.tableLayoutPanel4.Size = new System.Drawing.Size(1326, 61);
             this.tableLayoutPanel4.TabIndex = 77;
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(696, 608);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(341, 13);
-            this.label5.TabIndex = 80;
-            this.label5.Text = "Fazer um caixa de mensagem aparecer na tela confirmando o cadastro";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(366, 550);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(212, 13);
-            this.label7.TabIndex = 81;
-            this.label7.Text = "Colocar máscara de \"R$\" na caixa de texto";
-            // 
             // tableLayoutPanel2
             // 
             this.tableLayoutPanel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -548,8 +528,6 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1350, 729);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label5);
             this.Controls.Add(this.tableLayoutPanel4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.tableLayoutPanel1);
@@ -592,8 +570,6 @@
         private Controles_Personalizados.botaoPers botaoPers3;
         private Controles_Personalizados.botaoPers botaoPers4;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;

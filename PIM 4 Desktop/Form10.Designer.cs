@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form10));
             this.label8 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
@@ -38,13 +37,6 @@
             this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
             this.idVeiculo = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
             this.botaoPers1 = new PIM_4_Desktop.Controles_Personalizados.botaoPers();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.dataEntrega = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
             this.cpf = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
@@ -62,10 +54,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.diaria = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
             this.tableLayoutPanel5.SuspendLayout();
             this.tableLayoutPanel6.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
@@ -242,76 +230,6 @@
             this.botaoPers1.TextColor = System.Drawing.Color.White;
             this.botaoPers1.UseVisualStyleBackColor = false;
             this.botaoPers1.Click += new System.EventHandler(this.botaoPers1_Click);
-            // 
-            // label9
-            // 
-            this.label9.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(126, 194);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(194, 13);
-            this.label9.TabIndex = 76;
-            this.label9.Text = "Colocar a mascara de CPF (os \".\" e \"-\")";
-            // 
-            // label10
-            // 
-            this.label10.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(565, 194);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(172, 13);
-            this.label10.TabIndex = 77;
-            this.label10.Text = "Colocar a mascara de data (as \"/\")";
-            // 
-            // label11
-            // 
-            this.label11.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(971, 194);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(172, 13);
-            this.label11.TabIndex = 78;
-            this.label11.Text = "Colocar a mascara de data (as \"/\")";
-            // 
-            // label16
-            // 
-            this.label16.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(362, 449);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(203, 13);
-            this.label16.TabIndex = 79;
-            this.label16.Text = "Deixar ReadOnly colocando o dado certo";
-            // 
-            // label17
-            // 
-            this.label17.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(782, 449);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(203, 13);
-            this.label17.TabIndex = 80;
-            this.label17.Text = "Deixar ReadOnly colocando o dado certo";
-            // 
-            // label18
-            // 
-            this.label18.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(300, 578);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(339, 13);
-            this.label18.TabIndex = 81;
-            this.label18.Text = "Deixar ReadOnly colocando o dado certo exibindo a mascara de \"R$\"";
-            // 
-            // label19
-            // 
-            this.label19.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(709, 578);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(339, 13);
-            this.label19.TabIndex = 82;
-            this.label19.Text = "Deixar ReadOnly colocando o dado certo exibindo a mascara de \"R$\"";
             // 
             // tableLayoutPanel2
             // 
@@ -641,61 +559,11 @@
             this.diaria.Texts = "";
             this.diaria.UnderlinedStyle = false;
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(90, 322);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(1178, 13);
-            this.label5.TabIndex = 86;
-            this.label5.Text = resources.GetString("label5.Text");
-            // 
-            // label6
-            // 
-            this.label6.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(289, 593);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(369, 13);
-            this.label6.TabIndex = 107;
-            this.label6.Text = "Formula: Valor p/ dia do Carro selecionado (fazer aparecer na caixa de texto)";
-            // 
-            // label23
-            // 
-            this.label23.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(686, 593);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(654, 13);
-            this.label23.TabIndex = 108;
-            this.label23.Text = "Formula: Valor por Dia X Quantidade de Dias (check in (ou data de retirada )= dia" +
-    " 1, check out (ou data de entrega marcada) = ultimo dia)";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(1173, 606);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(165, 13);
-            this.label12.TabIndex = 109;
-            this.label12.Text = "(fazer aparecer na caixa de texto)";
-            // 
             // Form10
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1350, 729);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.label23);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label19);
-            this.Controls.Add(this.label18);
-            this.Controls.Add(this.label17);
-            this.Controls.Add(this.label16);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
             this.Controls.Add(this.tableLayoutPanel5);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label3);
@@ -727,13 +595,6 @@
         private Controles_Personalizados.botaoPers botaoPers3;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel6;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label19;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private Controles_Personalizados.caixaTexPer dataEntrega;
         private Controles_Personalizados.caixaTexPer cpf;
@@ -751,10 +612,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label7;
         private Controles_Personalizados.caixaTexPer diaria;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label12;
         private Controles_Personalizados.botaoPers botaoPers1;
         private Controles_Personalizados.caixaTexPer idVeiculo;
     }

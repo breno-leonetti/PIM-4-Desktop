@@ -48,7 +48,6 @@
             this.data = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
             this.cnh = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
             this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
             this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
             this.caixaTexPer2 = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
             this.label16 = new System.Windows.Forms.Label();
@@ -443,18 +442,6 @@
             this.label7.Text = "CPF ou Passaporte*/**:";
             this.label7.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // label8
-            // 
-            this.label8.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(371, 585);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(585, 16);
-            this.label8.TabIndex = 81;
-            this.label8.Text = "Fazer todas as Caixa de Texto ser ReadOnly e aparecer as Máscaras de cada uma, ou" +
-    " seja, / ( ) - .";
-            // 
             // tableLayoutPanel6
             // 
             this.tableLayoutPanel6.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -558,7 +545,6 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1350, 729);
-            this.Controls.Add(this.label8);
             this.Controls.Add(this.tableLayoutPanel3);
             this.Controls.Add(this.tableLayoutPanel4);
             this.Controls.Add(this.label3);
@@ -603,7 +589,6 @@
         private Controles_Personalizados.caixaTexPer data;
         private Controles_Personalizados.caixaTexPer cnh;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel6;
         private Controles_Personalizados.caixaTexPer caixaTexPer2;
         private System.Windows.Forms.Label label16;

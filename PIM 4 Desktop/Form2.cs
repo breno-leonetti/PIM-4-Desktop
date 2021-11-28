@@ -25,7 +25,8 @@ namespace PIM_4_Desktop
 
         private void botaoPers3_Click(object sender, EventArgs e)
         {
-
+            new Form7().Show();
+            this.Hide();
         }
 
         private void botaoPers4_Click(object sender, EventArgs e)

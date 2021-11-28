@@ -33,32 +33,26 @@
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.label4 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.caixaTexPer1 = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
+            this.caixaTexPer3 = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
+            this.botaoPers1 = new PIM_4_Desktop.Controles_Personalizados.botaoPers();
             this.label3 = new System.Windows.Forms.Label();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.comboBoxPers1 = new PIM_4_Desktop.Controles_Personalizados.ComboBoxPers();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.caixaTexPer4 = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
+            this.caixaTexPer6 = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
+            this.botaoPers4 = new PIM_4_Desktop.Controles_Personalizados.botaoPers();
+            this.botaoPers3 = new PIM_4_Desktop.Controles_Personalizados.botaoPers();
             this.label8 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.botaoPers4 = new PIM_4_Desktop.Controles_Personalizados.botaoPers();
-            this.botaoPers3 = new PIM_4_Desktop.Controles_Personalizados.botaoPers();
-            this.comboBoxPers1 = new PIM_4_Desktop.Controles_Personalizados.ComboBoxPers();
-            this.caixaTexPer4 = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
-            this.caixaTexPer6 = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
-            this.caixaTexPer1 = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
-            this.caixaTexPer3 = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
-            this.botaoPers1 = new PIM_4_Desktop.Controles_Personalizados.botaoPers();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tableLayoutPanel3.SuspendLayout();
@@ -143,6 +137,76 @@
             this.label1.TabIndex = 34;
             this.label1.Text = "ID da Reserva:";
             // 
+            // caixaTexPer1
+            // 
+            this.caixaTexPer1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.caixaTexPer1.BackColor = System.Drawing.SystemColors.Window;
+            this.caixaTexPer1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
+            this.caixaTexPer1.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.caixaTexPer1.BorderRadius = 5;
+            this.caixaTexPer1.BorderSize = 2;
+            this.caixaTexPer1.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.caixaTexPer1.ForeColor = System.Drawing.Color.Black;
+            this.caixaTexPer1.Location = new System.Drawing.Point(74, 47);
+            this.caixaTexPer1.Margin = new System.Windows.Forms.Padding(4);
+            this.caixaTexPer1.Multiline = false;
+            this.caixaTexPer1.Name = "caixaTexPer1";
+            this.caixaTexPer1.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
+            this.caixaTexPer1.PasswordChar = false;
+            this.caixaTexPer1.PlaceholderColor = System.Drawing.Color.DarkGray;
+            this.caixaTexPer1.PlaceholderText = "Número ID da Reserva";
+            this.caixaTexPer1.Size = new System.Drawing.Size(370, 39);
+            this.caixaTexPer1.TabIndex = 35;
+            this.caixaTexPer1.Texts = "";
+            this.caixaTexPer1.UnderlinedStyle = false;
+            // 
+            // caixaTexPer3
+            // 
+            this.caixaTexPer3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.caixaTexPer3.BackColor = System.Drawing.SystemColors.Window;
+            this.caixaTexPer3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
+            this.caixaTexPer3.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.caixaTexPer3.BorderRadius = 5;
+            this.caixaTexPer3.BorderSize = 2;
+            this.caixaTexPer3.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.caixaTexPer3.ForeColor = System.Drawing.Color.Black;
+            this.caixaTexPer3.Location = new System.Drawing.Point(882, 47);
+            this.caixaTexPer3.Margin = new System.Windows.Forms.Padding(4);
+            this.caixaTexPer3.Multiline = false;
+            this.caixaTexPer3.Name = "caixaTexPer3";
+            this.caixaTexPer3.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
+            this.caixaTexPer3.PasswordChar = false;
+            this.caixaTexPer3.PlaceholderColor = System.Drawing.Color.DarkGray;
+            this.caixaTexPer3.PlaceholderText = "Ex: 100,00";
+            this.caixaTexPer3.Size = new System.Drawing.Size(370, 39);
+            this.caixaTexPer3.TabIndex = 35;
+            this.caixaTexPer3.Texts = "";
+            this.caixaTexPer3.UnderlinedStyle = false;
+            // 
+            // botaoPers1
+            // 
+            this.botaoPers1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.botaoPers1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(172)))), ((int)(((byte)(255)))));
+            this.botaoPers1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(172)))), ((int)(((byte)(255)))));
+            this.botaoPers1.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.botaoPers1.BorderRadius = 5;
+            this.botaoPers1.BorderSize = 0;
+            this.botaoPers1.FlatAppearance.BorderSize = 0;
+            this.botaoPers1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.botaoPers1.Font = new System.Drawing.Font("Arial Black", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.botaoPers1.ForeColor = System.Drawing.Color.White;
+            this.botaoPers1.Location = new System.Drawing.Point(477, 46);
+            this.botaoPers1.Name = "botaoPers1";
+            this.botaoPers1.Size = new System.Drawing.Size(372, 47);
+            this.botaoPers1.TabIndex = 22;
+            this.botaoPers1.Text = "Verificar";
+            this.botaoPers1.TextColor = System.Drawing.Color.White;
+            this.botaoPers1.UseVisualStyleBackColor = false;
+            this.botaoPers1.Click += new System.EventHandler(this.botaoPers1_Click);
+            // 
             // label3
             // 
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.Top;
@@ -182,6 +246,32 @@
             this.tableLayoutPanel2.Size = new System.Drawing.Size(1326, 96);
             this.tableLayoutPanel2.TabIndex = 35;
             // 
+            // comboBoxPers1
+            // 
+            this.comboBoxPers1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.comboBoxPers1.BackColor = System.Drawing.SystemColors.Window;
+            this.comboBoxPers1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
+            this.comboBoxPers1.BorderRadius = 0;
+            this.comboBoxPers1.BorderSize = 2;
+            this.comboBoxPers1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxPers1.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBoxPers1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.comboBoxPers1.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.comboBoxPers1.Items.AddRange(new object[] {
+            "Cartão",
+            "PIX",
+            "Dinheiro"});
+            this.comboBoxPers1.ListBackColor = System.Drawing.SystemColors.Window;
+            this.comboBoxPers1.ListTextColor = System.Drawing.Color.Black;
+            this.comboBoxPers1.Location = new System.Drawing.Point(74, 46);
+            this.comboBoxPers1.MinimumSize = new System.Drawing.Size(200, 30);
+            this.comboBoxPers1.Name = "comboBoxPers1";
+            this.comboBoxPers1.Padding = new System.Windows.Forms.Padding(2);
+            this.comboBoxPers1.Size = new System.Drawing.Size(370, 39);
+            this.comboBoxPers1.TabIndex = 36;
+            this.comboBoxPers1.Texts = "NONE";
+            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -217,6 +307,56 @@
             this.label7.TabIndex = 34;
             this.label7.Text = "Forma de Pagamento:";
             // 
+            // caixaTexPer4
+            // 
+            this.caixaTexPer4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.caixaTexPer4.BackColor = System.Drawing.SystemColors.Window;
+            this.caixaTexPer4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
+            this.caixaTexPer4.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.caixaTexPer4.BorderRadius = 5;
+            this.caixaTexPer4.BorderSize = 2;
+            this.caixaTexPer4.Enabled = false;
+            this.caixaTexPer4.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.caixaTexPer4.ForeColor = System.Drawing.Color.Black;
+            this.caixaTexPer4.Location = new System.Drawing.Point(478, 47);
+            this.caixaTexPer4.Margin = new System.Windows.Forms.Padding(4);
+            this.caixaTexPer4.Multiline = false;
+            this.caixaTexPer4.Name = "caixaTexPer4";
+            this.caixaTexPer4.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
+            this.caixaTexPer4.PasswordChar = false;
+            this.caixaTexPer4.PlaceholderColor = System.Drawing.Color.DarkGray;
+            this.caixaTexPer4.PlaceholderText = "ReadOnly (Nome do Cliente)";
+            this.caixaTexPer4.Size = new System.Drawing.Size(370, 39);
+            this.caixaTexPer4.TabIndex = 35;
+            this.caixaTexPer4.Texts = "";
+            this.caixaTexPer4.UnderlinedStyle = false;
+            // 
+            // caixaTexPer6
+            // 
+            this.caixaTexPer6.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.caixaTexPer6.BackColor = System.Drawing.SystemColors.Window;
+            this.caixaTexPer6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
+            this.caixaTexPer6.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.caixaTexPer6.BorderRadius = 5;
+            this.caixaTexPer6.BorderSize = 2;
+            this.caixaTexPer6.Enabled = false;
+            this.caixaTexPer6.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.caixaTexPer6.ForeColor = System.Drawing.Color.Black;
+            this.caixaTexPer6.Location = new System.Drawing.Point(882, 47);
+            this.caixaTexPer6.Margin = new System.Windows.Forms.Padding(4);
+            this.caixaTexPer6.Multiline = false;
+            this.caixaTexPer6.Name = "caixaTexPer6";
+            this.caixaTexPer6.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
+            this.caixaTexPer6.PasswordChar = false;
+            this.caixaTexPer6.PlaceholderColor = System.Drawing.Color.DarkGray;
+            this.caixaTexPer6.PlaceholderText = "ReadOnly (Veículo Reservado)";
+            this.caixaTexPer6.Size = new System.Drawing.Size(370, 39);
+            this.caixaTexPer6.TabIndex = 35;
+            this.caixaTexPer6.Texts = "";
+            this.caixaTexPer6.UnderlinedStyle = false;
+            // 
             // tableLayoutPanel4
             // 
             this.tableLayoutPanel4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -236,6 +376,51 @@
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 68.29269F));
             this.tableLayoutPanel4.Size = new System.Drawing.Size(1326, 61);
             this.tableLayoutPanel4.TabIndex = 36;
+            // 
+            // botaoPers4
+            // 
+            this.botaoPers4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.botaoPers4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(254)))), ((int)(((byte)(40)))));
+            this.botaoPers4.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(254)))), ((int)(((byte)(40)))));
+            this.botaoPers4.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.botaoPers4.BorderRadius = 5;
+            this.botaoPers4.BorderSize = 0;
+            this.botaoPers4.Enabled = false;
+            this.botaoPers4.FlatAppearance.BorderSize = 0;
+            this.botaoPers4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.botaoPers4.Font = new System.Drawing.Font("Arial Black", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.botaoPers4.ForeColor = System.Drawing.Color.White;
+            this.botaoPers4.Location = new System.Drawing.Point(684, 3);
+            this.botaoPers4.Name = "botaoPers4";
+            this.botaoPers4.Size = new System.Drawing.Size(370, 50);
+            this.botaoPers4.TabIndex = 21;
+            this.botaoPers4.Text = "CONFIRMAR CHECK-OUT";
+            this.botaoPers4.TextColor = System.Drawing.Color.White;
+            this.botaoPers4.UseVisualStyleBackColor = false;
+            this.botaoPers4.Click += new System.EventHandler(this.botaoPers4_Click);
+            // 
+            // botaoPers3
+            // 
+            this.botaoPers3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.botaoPers3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(172)))), ((int)(((byte)(255)))));
+            this.botaoPers3.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(172)))), ((int)(((byte)(255)))));
+            this.botaoPers3.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.botaoPers3.BorderRadius = 5;
+            this.botaoPers3.BorderSize = 0;
+            this.botaoPers3.FlatAppearance.BorderSize = 0;
+            this.botaoPers3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.botaoPers3.Font = new System.Drawing.Font("Arial Black", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.botaoPers3.ForeColor = System.Drawing.Color.White;
+            this.botaoPers3.Location = new System.Drawing.Point(271, 3);
+            this.botaoPers3.Name = "botaoPers3";
+            this.botaoPers3.Size = new System.Drawing.Size(370, 50);
+            this.botaoPers3.TabIndex = 20;
+            this.botaoPers3.Text = "VOLTAR";
+            this.botaoPers3.TextColor = System.Drawing.Color.White;
+            this.botaoPers3.UseVisualStyleBackColor = false;
+            this.botaoPers3.Click += new System.EventHandler(this.botaoPers3_Click);
             // 
             // label8
             // 
@@ -309,271 +494,11 @@
             this.label16.Text = "000,00";
             this.label16.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // label17
-            // 
-            this.label17.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(102, 584);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(325, 13);
-            this.label17.TabIndex = 46;
-            this.label17.Text = "Formula: Valor p/ dia do Carro selecionado (fazer aparecer na label)";
-            // 
-            // label18
-            // 
-            this.label18.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(315, 516);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(771, 13);
-            this.label18.TabIndex = 47;
-            this.label18.Text = "Formula: Valor por Dia X Quantidade de Dias (check in (ou data de retirada) = dia" +
-    " 1, check out (ou data de entrega marcada) = ultimo dia) (fazer aparecer na labe" +
-    "l)";
-            // 
-            // label19
-            // 
-            this.label19.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(947, 592);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(372, 13);
-            this.label19.TabIndex = 48;
-            this.label19.Text = "somente se houver custos extras, se não, considerar como 0 reais e aparecer";
-            // 
-            // label20
-            // 
-            this.label20.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(891, 581);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(438, 13);
-            this.label20.TabIndex = 49;
-            this.label20.Text = "Formula: Valor Total (label anterior) + Custos extras declarados na caixa de text" +
-    "o dessa tela,";
-            // 
-            // label21
-            // 
-            this.label21.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(1019, 607);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(274, 13);
-            this.label21.TabIndex = 50;
-            this.label21.Text = "o mesmo valor do Total de dias) (fazer aparecer na label)";
-            // 
-            // label22
-            // 
-            this.label22.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(880, 329);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(398, 13);
-            this.label22.TabIndex = 51;
-            this.label22.Text = "Colocar Mácara na caixa de texto (a máscara é \"R$\") se não for possível me avisa";
-            // 
-            // botaoPers4
-            // 
-            this.botaoPers4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.botaoPers4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(254)))), ((int)(((byte)(40)))));
-            this.botaoPers4.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(254)))), ((int)(((byte)(40)))));
-            this.botaoPers4.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.botaoPers4.BorderRadius = 5;
-            this.botaoPers4.BorderSize = 0;
-            this.botaoPers4.Enabled = false;
-            this.botaoPers4.FlatAppearance.BorderSize = 0;
-            this.botaoPers4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.botaoPers4.Font = new System.Drawing.Font("Arial Black", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.botaoPers4.ForeColor = System.Drawing.Color.White;
-            this.botaoPers4.Location = new System.Drawing.Point(684, 3);
-            this.botaoPers4.Name = "botaoPers4";
-            this.botaoPers4.Size = new System.Drawing.Size(370, 50);
-            this.botaoPers4.TabIndex = 21;
-            this.botaoPers4.Text = "CONFIRMAR CHECK-OUT";
-            this.botaoPers4.TextColor = System.Drawing.Color.White;
-            this.botaoPers4.UseVisualStyleBackColor = false;
-            this.botaoPers4.Click += new System.EventHandler(this.botaoPers4_Click);
-            // 
-            // botaoPers3
-            // 
-            this.botaoPers3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.botaoPers3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(172)))), ((int)(((byte)(255)))));
-            this.botaoPers3.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(172)))), ((int)(((byte)(255)))));
-            this.botaoPers3.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.botaoPers3.BorderRadius = 5;
-            this.botaoPers3.BorderSize = 0;
-            this.botaoPers3.FlatAppearance.BorderSize = 0;
-            this.botaoPers3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.botaoPers3.Font = new System.Drawing.Font("Arial Black", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.botaoPers3.ForeColor = System.Drawing.Color.White;
-            this.botaoPers3.Location = new System.Drawing.Point(271, 3);
-            this.botaoPers3.Name = "botaoPers3";
-            this.botaoPers3.Size = new System.Drawing.Size(370, 50);
-            this.botaoPers3.TabIndex = 20;
-            this.botaoPers3.Text = "VOLTAR";
-            this.botaoPers3.TextColor = System.Drawing.Color.White;
-            this.botaoPers3.UseVisualStyleBackColor = false;
-            this.botaoPers3.Click += new System.EventHandler(this.botaoPers3_Click);
-            // 
-            // comboBoxPers1
-            // 
-            this.comboBoxPers1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.comboBoxPers1.BackColor = System.Drawing.SystemColors.Window;
-            this.comboBoxPers1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
-            this.comboBoxPers1.BorderRadius = 0;
-            this.comboBoxPers1.BorderSize = 2;
-            this.comboBoxPers1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBoxPers1.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBoxPers1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.comboBoxPers1.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.comboBoxPers1.Items.AddRange(new object[] {
-            "Cartão",
-            "PIX",
-            "Dinheiro"});
-            this.comboBoxPers1.ListBackColor = System.Drawing.SystemColors.Window;
-            this.comboBoxPers1.ListTextColor = System.Drawing.Color.Black;
-            this.comboBoxPers1.Location = new System.Drawing.Point(74, 46);
-            this.comboBoxPers1.MinimumSize = new System.Drawing.Size(200, 30);
-            this.comboBoxPers1.Name = "comboBoxPers1";
-            this.comboBoxPers1.Padding = new System.Windows.Forms.Padding(2);
-            this.comboBoxPers1.Size = new System.Drawing.Size(370, 39);
-            this.comboBoxPers1.TabIndex = 36;
-            this.comboBoxPers1.Texts = "NONE";
-            // 
-            // caixaTexPer4
-            // 
-            this.caixaTexPer4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.caixaTexPer4.BackColor = System.Drawing.SystemColors.Window;
-            this.caixaTexPer4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
-            this.caixaTexPer4.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.caixaTexPer4.BorderRadius = 5;
-            this.caixaTexPer4.BorderSize = 2;
-            this.caixaTexPer4.Enabled = false;
-            this.caixaTexPer4.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.caixaTexPer4.ForeColor = System.Drawing.Color.Black;
-            this.caixaTexPer4.Location = new System.Drawing.Point(478, 47);
-            this.caixaTexPer4.Margin = new System.Windows.Forms.Padding(4);
-            this.caixaTexPer4.Multiline = false;
-            this.caixaTexPer4.Name = "caixaTexPer4";
-            this.caixaTexPer4.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
-            this.caixaTexPer4.PasswordChar = false;
-            this.caixaTexPer4.PlaceholderColor = System.Drawing.Color.DarkGray;
-            this.caixaTexPer4.PlaceholderText = "ReadOnly (Nome do Cliente)";
-            this.caixaTexPer4.Size = new System.Drawing.Size(370, 39);
-            this.caixaTexPer4.TabIndex = 35;
-            this.caixaTexPer4.Texts = "";
-            this.caixaTexPer4.UnderlinedStyle = false;
-            // 
-            // caixaTexPer6
-            // 
-            this.caixaTexPer6.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.caixaTexPer6.BackColor = System.Drawing.SystemColors.Window;
-            this.caixaTexPer6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
-            this.caixaTexPer6.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.caixaTexPer6.BorderRadius = 5;
-            this.caixaTexPer6.BorderSize = 2;
-            this.caixaTexPer6.Enabled = false;
-            this.caixaTexPer6.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.caixaTexPer6.ForeColor = System.Drawing.Color.Black;
-            this.caixaTexPer6.Location = new System.Drawing.Point(882, 47);
-            this.caixaTexPer6.Margin = new System.Windows.Forms.Padding(4);
-            this.caixaTexPer6.Multiline = false;
-            this.caixaTexPer6.Name = "caixaTexPer6";
-            this.caixaTexPer6.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
-            this.caixaTexPer6.PasswordChar = false;
-            this.caixaTexPer6.PlaceholderColor = System.Drawing.Color.DarkGray;
-            this.caixaTexPer6.PlaceholderText = "ReadOnly (Veículo Reservado)";
-            this.caixaTexPer6.Size = new System.Drawing.Size(370, 39);
-            this.caixaTexPer6.TabIndex = 35;
-            this.caixaTexPer6.Texts = "";
-            this.caixaTexPer6.UnderlinedStyle = false;
-            // 
-            // caixaTexPer1
-            // 
-            this.caixaTexPer1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.caixaTexPer1.BackColor = System.Drawing.SystemColors.Window;
-            this.caixaTexPer1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
-            this.caixaTexPer1.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.caixaTexPer1.BorderRadius = 5;
-            this.caixaTexPer1.BorderSize = 2;
-            this.caixaTexPer1.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.caixaTexPer1.ForeColor = System.Drawing.Color.Black;
-            this.caixaTexPer1.Location = new System.Drawing.Point(74, 47);
-            this.caixaTexPer1.Margin = new System.Windows.Forms.Padding(4);
-            this.caixaTexPer1.Multiline = false;
-            this.caixaTexPer1.Name = "caixaTexPer1";
-            this.caixaTexPer1.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
-            this.caixaTexPer1.PasswordChar = false;
-            this.caixaTexPer1.PlaceholderColor = System.Drawing.Color.DarkGray;
-            this.caixaTexPer1.PlaceholderText = "Número ID da Reserva";
-            this.caixaTexPer1.Size = new System.Drawing.Size(370, 39);
-            this.caixaTexPer1.TabIndex = 35;
-            this.caixaTexPer1.Texts = "";
-            this.caixaTexPer1.UnderlinedStyle = false;
-            // 
-            // caixaTexPer3
-            // 
-            this.caixaTexPer3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.caixaTexPer3.BackColor = System.Drawing.SystemColors.Window;
-            this.caixaTexPer3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(196)))), ((int)(((byte)(196)))));
-            this.caixaTexPer3.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.caixaTexPer3.BorderRadius = 5;
-            this.caixaTexPer3.BorderSize = 2;
-            this.caixaTexPer3.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.caixaTexPer3.ForeColor = System.Drawing.Color.Black;
-            this.caixaTexPer3.Location = new System.Drawing.Point(882, 47);
-            this.caixaTexPer3.Margin = new System.Windows.Forms.Padding(4);
-            this.caixaTexPer3.Multiline = false;
-            this.caixaTexPer3.Name = "caixaTexPer3";
-            this.caixaTexPer3.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
-            this.caixaTexPer3.PasswordChar = false;
-            this.caixaTexPer3.PlaceholderColor = System.Drawing.Color.DarkGray;
-            this.caixaTexPer3.PlaceholderText = "Ex: 100,00";
-            this.caixaTexPer3.Size = new System.Drawing.Size(370, 39);
-            this.caixaTexPer3.TabIndex = 35;
-            this.caixaTexPer3.Texts = "";
-            this.caixaTexPer3.UnderlinedStyle = false;
-            // 
-            // botaoPers1
-            // 
-            this.botaoPers1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.botaoPers1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(172)))), ((int)(((byte)(255)))));
-            this.botaoPers1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(172)))), ((int)(((byte)(255)))));
-            this.botaoPers1.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.botaoPers1.BorderRadius = 5;
-            this.botaoPers1.BorderSize = 0;
-            this.botaoPers1.FlatAppearance.BorderSize = 0;
-            this.botaoPers1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.botaoPers1.Font = new System.Drawing.Font("Arial Black", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.botaoPers1.ForeColor = System.Drawing.Color.White;
-            this.botaoPers1.Location = new System.Drawing.Point(477, 46);
-            this.botaoPers1.Name = "botaoPers1";
-            this.botaoPers1.Size = new System.Drawing.Size(372, 47);
-            this.botaoPers1.TabIndex = 22;
-            this.botaoPers1.Text = "Verificar";
-            this.botaoPers1.TextColor = System.Drawing.Color.White;
-            this.botaoPers1.UseVisualStyleBackColor = false;
-            this.botaoPers1.Click += new System.EventHandler(this.botaoPers1_Click);
-            // 
             // Form5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1350, 729);
-            this.Controls.Add(this.label22);
-            this.Controls.Add(this.label21);
-            this.Controls.Add(this.label20);
-            this.Controls.Add(this.label19);
-            this.Controls.Add(this.label18);
-            this.Controls.Add(this.label17);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label13);
@@ -625,12 +550,6 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label22;
         private Controles_Personalizados.botaoPers botaoPers1;
     }
 }

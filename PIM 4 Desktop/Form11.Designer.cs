@@ -31,8 +31,6 @@
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
             this.botaoPers4 = new PIM_4_Desktop.Controles_Personalizados.botaoPers();
@@ -50,12 +48,6 @@
             this.label12 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.caixaTexPer4 = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
             this.caixaTexPer5 = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
@@ -107,26 +99,6 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(0, 13);
             this.label5.TabIndex = 93;
-            // 
-            // label11
-            // 
-            this.label11.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(913, 336);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(340, 13);
-            this.label11.TabIndex = 91;
-            this.label11.Text = "Colocar a mascara de data (os \".\" e \"-\") com o dado certo e ReadOnly";
-            // 
-            // label10
-            // 
-            this.label10.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(565, 336);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(196, 13);
-            this.label10.TabIndex = 90;
-            this.label10.Text = "Colocar em ReadOnly com o dado certo";
             // 
             // label3
             // 
@@ -409,68 +381,6 @@
             this.label17.Text = "Carro a Ser Reservado:";
             this.label17.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // label13
-            // 
-            this.label13.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(173, 336);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(196, 13);
-            this.label13.TabIndex = 102;
-            this.label13.Text = "Colocar em ReadOnly com o dado certo";
-            // 
-            // label14
-            // 
-            this.label14.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(90, 462);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(356, 13);
-            this.label14.TabIndex = 103;
-            this.label14.Text = "colocar em ReadOnly com o carro escolhido na combobox da tela anterior";
-            // 
-            // label15
-            // 
-            this.label15.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(499, 464);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(357, 13);
-            this.label15.TabIndex = 104;
-            this.label15.Text = "Colocar em ReadOnly com o dado certo e com a mascara de data (as \"/\")";
-            // 
-            // label18
-            // 
-            this.label18.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(896, 464);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(357, 13);
-            this.label18.TabIndex = 105;
-            this.label18.Text = "Colocar em ReadOnly com o dado certo e com a mascara de data (as \"/\")";
-            // 
-            // label19
-            // 
-            this.label19.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(302, 601);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(325, 13);
-            this.label19.TabIndex = 106;
-            this.label19.Text = "Formula: Valor p/ dia do Carro selecionado (fazer aparecer na label)";
-            // 
-            // label23
-            // 
-            this.label23.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(577, 533);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(771, 13);
-            this.label23.TabIndex = 107;
-            this.label23.Text = "Formula: Valor por Dia X Quantidade de Dias (check in (ou data de retirada )= dia" +
-    " 1, check out (ou data de entrega marcada) = ultimo dia) (fazer aparecer na labe" +
-    "l)";
-            // 
             // tableLayoutPanel4
             // 
             this.tableLayoutPanel4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -625,12 +535,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1350, 729);
             this.Controls.Add(this.label20);
-            this.Controls.Add(this.label23);
-            this.Controls.Add(this.label19);
-            this.Controls.Add(this.label18);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.label13);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label7);
@@ -639,8 +543,6 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.tableLayoutPanel5);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label10);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.tableLayoutPanel3);
@@ -664,8 +566,6 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel5;
         private Controles_Personalizados.botaoPers botaoPers4;
@@ -683,12 +583,6 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label23;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
         private Controles_Personalizados.caixaTexPer caixaTexPer4;
         private Controles_Personalizados.caixaTexPer caixaTexPer5;

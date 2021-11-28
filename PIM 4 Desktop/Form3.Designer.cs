@@ -44,8 +44,6 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.caixaTexPer4 = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tableLayoutPanel2.SuspendLayout();
@@ -351,31 +349,11 @@
             this.caixaTexPer4.Texts = "";
             this.caixaTexPer4.UnderlinedStyle = false;
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(331, 490);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(264, 13);
-            this.label2.TabIndex = 33;
-            this.label2.Text = "Deixar como readOnly, fazer aparecer o dado na caixa";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(752, 490);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(264, 13);
-            this.label7.TabIndex = 34;
-            this.label7.Text = "Deixar como readOnly, fazer aparecer o dado na caixa";
-            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1350, 729);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.tableLayoutPanel4);
             this.Controls.Add(this.tableLayoutPanel3);
             this.Controls.Add(this.tableLayoutPanel2);
@@ -413,7 +391,5 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private Controles_Personalizados.caixaTexPer caixaTexPer4;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label7;
     }
 }

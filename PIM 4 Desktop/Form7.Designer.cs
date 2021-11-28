@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label22 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -36,10 +35,6 @@
             this.botaoPers4 = new PIM_4_Desktop.Controles_Personalizados.botaoPers();
             this.botaoPers3 = new PIM_4_Desktop.Controles_Personalizados.botaoPers();
             this.label8 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.nome = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
             this.email = new PIM_4_Desktop.Controles_Personalizados.caixaTexPer();
@@ -66,16 +61,6 @@
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel6.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // label22
-            // 
-            this.label22.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(86, 443);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(328, 13);
-            this.label22.TabIndex = 56;
-            this.label22.Text = "Colocar Mácara na caixa de texto (a máscara seria \".\" e \"-\" do CPF)";
             // 
             // label3
             // 
@@ -193,48 +178,6 @@
             this.label8.Size = new System.Drawing.Size(328, 18);
             this.label8.TabIndex = 58;
             this.label8.Text = "*Obrigatório/**Não Insira , e - (Pontos e Traço)";
-            // 
-            // label12
-            // 
-            this.label12.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(921, 443);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(331, 13);
-            this.label12.TabIndex = 61;
-            this.label12.Text = "Colocar Mácara na caixa de texto (a máscara seria \".\" e \"-\" da CNH)";
-            // 
-            // label13
-            // 
-            this.label13.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(512, 434);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(306, 13);
-            this.label13.TabIndex = 62;
-            this.label13.Text = "Colocar Mácara na caixa de texto (a máscara seria \"/\" da data)";
-            // 
-            // label14
-            // 
-            this.label14.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(159, 569);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(494, 13);
-            this.label14.TabIndex = 63;
-            this.label14.Text = "Colocar Mácara na caixa de texto (a máscara seria \"( )\" e \"-\" do Telefone) se não" +
-    " for possível me avisa";
-            // 
-            // label15
-            // 
-            this.label15.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(693, 569);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(494, 13);
-            this.label15.TabIndex = 64;
-            this.label15.Text = "Colocar Mácara na caixa de texto (a máscara seria \"( )\" e \"-\" do Telefone) se não" +
-    " for possível me avisa";
             // 
             // tableLayoutPanel3
             // 
@@ -600,13 +543,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1350, 729);
             this.Controls.Add(this.tableLayoutPanel3);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.label12);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.tableLayoutPanel4);
-            this.Controls.Add(this.label22);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.tableLayoutPanel2);
@@ -628,8 +566,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.PictureBox pictureBox1;
@@ -637,10 +573,6 @@
         private Controles_Personalizados.botaoPers botaoPers4;
         private Controles_Personalizados.botaoPers botaoPers3;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
         private Controles_Personalizados.caixaTexPer nome;
         private Controles_Personalizados.caixaTexPer email;

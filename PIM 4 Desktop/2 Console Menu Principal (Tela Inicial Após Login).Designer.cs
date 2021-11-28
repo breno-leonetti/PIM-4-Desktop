@@ -44,7 +44,6 @@
             this.botaoPers6 = new PIM_4_Desktop.Controles_Personalizados.botaoPers();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.btnSair = new PIM_4_Desktop.Controles_Personalizados.botaoPers();
-            this.label5 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tableLayoutPanel2.SuspendLayout();
@@ -357,22 +356,11 @@
             this.btnSair.UseVisualStyleBackColor = false;
             this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(478, 320);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(406, 13);
-            this.label5.TabIndex = 81;
-            this.label5.Text = "Os botões \"alterar\", \"buscar\", e \"exlcluir\" irão levar para o mesmo menu, o form " +
-    "\"16\"";
-            // 
             // _2_Console_Menu_Principal__Tela_Inicial_Após_Login_
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1350, 729);
-            this.Controls.Add(this.label5);
             this.Controls.Add(this.tableLayoutPanel2);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.NomeFuncionario);
@@ -411,6 +399,5 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
-        private System.Windows.Forms.Label label5;
     }
 }
